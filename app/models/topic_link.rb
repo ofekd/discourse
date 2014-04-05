@@ -27,7 +27,7 @@ class TopicLink < ActiveRecord::Base
 
     # Sam: complicated reports are really hard in AR
     builder = SqlBuilder.new("SELECT ftl.url,
-                     ft.title,
+                     COALESCE(ft.title, ftl.title) AS title,
                      ftl.link_topic_id,
                      ftl.reflection,
                      ftl.internal,
@@ -37,7 +37,7 @@ class TopicLink < ActiveRecord::Base
               LEFT JOIN topics AS ft ON ftl.link_topic_id = ft.id
               LEFT JOIN categories AS c ON c.id = ft.category_id
               /*where*/
-              GROUP BY ftl.url, ft.title, ftl.link_topic_id, ftl.reflection, ftl.internal
+              GROUP BY ftl.url, ft.title, ftl.title, ftl.link_topic_id, ftl.reflection, ftl.internal
               ORDER BY clicks DESC")
 
     builder.where('ftl.topic_id = :topic_id', topic_id: topic_id)
@@ -58,7 +58,7 @@ class TopicLink < ActiveRecord::Base
                       l.post_id,
                       l.url,
                       l.clicks,
-                      t.title,
+                      COALESCE(t.title, l.title) AS title,
                       l.internal,
                       l.reflection
               FROM topic_links l
