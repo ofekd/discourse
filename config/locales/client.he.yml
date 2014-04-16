@@ -1,0 +1,1779 @@
+# encoding: utf-8
+# This file contains content for the client portion of Discourse, sent out
+# to the Javascript app.
+#
+# To work with us on translations, see:
+# https://www.transifex.com/projects/p/discourse-pt-br/
+#
+# To validate this YAML file after you change it, please paste it into
+# http://yamllint.com/
+
+he:
+  js:
+    number:
+      human:
+        storage_units:
+          format: '%n %u'
+          units:
+            byte:
+              one: B
+              other: B
+            gb: GB
+            kb: KB
+            mb: MB
+            tb: TB
+    dates:
+      tiny:
+        half_a_minute: "פחות מדקה"
+        less_than_x_seconds:
+          one:   "פחות משנייה"
+          other: "פחות מ-%{count} שניות"
+        x_seconds:
+          one:   "שנייה אחת"
+          other: "%{count} שניות"
+        less_than_x_minutes:
+          one:   "פחות מדקה"
+          other: "פחות מ-%{count} דקות"
+        x_minutes:
+          one:   "דקה אחת"
+          other: "%{count} דקות"
+        about_x_hours:
+          one:   "שעה אחת"
+          other: "%{count} שעות"
+        x_days:
+          one:   "יום אחד"
+          other: "%{count} ימים"
+        about_x_years:
+          one:   "שנה אחת"
+          other: "%{count} שנים"
+        over_x_years:
+          one:   "יותר משנה"
+          other: "יותר מ-%{count} שנים"
+        almost_x_years:
+          one:   "שנה אחת"
+          other: "%{count} שנים"
+        date_month: "D MMM"
+        date_year: "MMM 'YY"
+      medium:
+        x_minutes:
+          one: "דקה אחת"
+          other: "%{count} דקות"
+        x_hours:
+          one: "שעה אחת"
+          other: "%{count} שעות"
+        x_days:
+          one: "יום אחד"
+          other: "%{count} ימים"
+        date_year: "D MMM YYYY"
+      medium_with_ago:
+        x_minutes:
+          one: "לפני דקה אחת"
+          other: "לפני %{count} דקות"
+        x_hours:
+          one: "לפני שעה אחת"
+          other: "לפני %{count} שעות"
+        x_days:
+          one: "אתמול"
+          other: "לפני %{count} ימים"
+    share:
+      topic: 'שתף קישור לנושא הזה'
+      post: 'שתף קישור להודעה מספר #%{postNumber}'
+      close: 'סגור'
+      twitter: 'שתף קישור זה בטוויטר'
+      facebook: 'שתף קישור זה בפייסבוק'
+      google+: 'שתף קישור זה בגוגל+'
+      email: 'שלח קישור זה בדוא"ל'
+
+    edit: 'ערוך את הכותרת והקטגוריה של נושא זה'
+    not_implemented: "האפשרות הזו עדיין לא מומשה, סליחה!"
+    no_value: "לא"
+    yes_value: "כן"
+    of_value: "מתוך"
+    generic_error: "סליחה, ארעה שגיאה"
+    generic_error_with_reason: "ארעה שגיאה: %{error}"
+    log_in: "התחבר"
+    age: "גיל"
+    last_post: "הודעה אחרונה"
+    joined: "הצטרף"
+    admin_title: "מנהל ראשי"
+    flags_title: "דגלים"
+    show_more: "הראה עוד"
+    links: "קישורים"
+    faq: "שאלות נפוצות"
+    privacy_policy: "מדיניות פרטיות"
+    mobile_view: "תצוגת סלולרי"
+    desktop_view: "תצוגת מחשב"
+    you: "את/ה"
+    or: "או"
+    now: "ממש עכשיו"
+    read_more: 'קרא עוד'
+    more: "עוד"
+    less: "פחות"
+    never: "אף פעם"
+    daily: "יומית"
+    weekly: "שבועית"
+    every_two_weeks: "דו-שבועית"
+    max: "לכל היותר"
+    character_count:
+      one: "תו אחד"
+      other: "{{count}} תווים"
+
+    in_n_seconds:
+      one: "בעוד שניה אחת"
+      other: "בעוד {{count}} שניות"
+    in_n_minutes:
+      one: "בעוד דקה אחת"
+      other: "בעוד {{count}} דקות"
+    in_n_hours:
+      one: "בעוד שעה אחת"
+      other: "בעוד {{count}} שעות"
+    in_n_days:
+      one: "בעוד יום אחד"
+      other: "בעוד {{count}} ימים"
+
+    suggested_topics:
+      title: "נושאים מוצעים"
+
+    bookmarks:
+      not_logged_in: "סליחה, עליך להיות מחובר כדי להעדיף מודעה"
+      created: "כבר העדפת מודעה זו"
+      not_bookmarked: "קראת הודעה זו, לחץ להעדפה"
+      last_read: "זו ההודעה האחרונה שקראת, לחץ להעדפה"
+
+    new_topics_inserted: "{{count}} נושאים חדשים."
+    show_new_topics: "לחץ כדי להציג."
+    preview: "תצוגה מקדימה"
+    cancel: "ביטול"
+
+    save: "שמור שינויים"
+    saving: "שומר"
+    saved: "נשמר!"
+
+    upload: "העלה"
+    uploading: "מעלה..."
+    uploaded: "הועלה!"
+
+    choose_topic:
+      none_found: "לא נמצאו נושאים."
+      title:
+        search: "חפש נושא לפי שם, כתובת או מזהה:"
+        placeholder: "הקלד את כותרת הנושא כאן"
+
+    user_action:
+      user_posted_topic: "<a href='{{userUrl}}'>{{user}}</a> פרסם <a href='{{topicUrl}}'>את הנושא</a>"
+      you_posted_topic: "<a href='{{userUrl}}'>את/ה</a> פרסמת <a href='{{topicUrl}}'>את הנושא</a>"
+      user_replied_to_post: "<a href='{{userUrl}}'>{{user}}</a> הגיב ל: <a href='{{postUrl}}'>{{post_number}}</a>"
+      you_replied_to_post: "<a href='{{userUrl}}'>את/ה</a> הגבת ל: <a href='{{postUrl}}'>{{post_number}}</a>"
+      user_replied_to_topic: "<a href='{{userUrl}}'>{{user}}</a> הגיב <a href='{{topicUrl}}'>לנושא הזה</a>"
+      you_replied_to_topic: "<a href='{{userUrl}}'>את/ה</a> הגבת <a href='{{topicUrl}}'>לנושא הזה</a>"
+
+      user_mentioned_user: "<a href='{{user1Url}}'>{{user}}</a> הזכיר את <a href='{{user2Url}}'>{{another_user}}</a>"
+      user_mentioned_you: "<a href='{{user1Url}}'>{{user}}</a> הזכיר <a href='{{user2Url}}'>אותך</a>"
+      you_mentioned_user: "<a href='{{user1Url}}'>את/ה</a> הזכרת את <a href='{{user2Url}}'>{{another_user}}</a>"
+
+      posted_by_user: "פורסם על ידי <a href='{{userUrl}}'>{{user}}</a>"
+      posted_by_you: "פורסם על <a href='{{userUrl}}'>ידך</a>"
+      sent_by_user: "נשלח על ידי <a href='{{userUrl}}'>{{user}}</a>"
+      sent_by_you: "נשלח על <a href='{{userUrl}}'>ידך</a>"
+
+    groups:
+      title:
+        one: "קבוצה"
+        other: "קבוצות"
+      members: "חברים"
+      posts: "הודעות"
+      alias_levels:
+        title: "מי יכול להשתמש בקבוצה הזו ככינוי?"
+        nobody: "אף אחד"
+        only_admins: "רק מנהלים ראשיים"
+        mods_and_admins: "רק מנהלים ומנהלים ראשיים"
+        members_mods_and_admins: "רק חברי הקבוצה, מנהלים ומנהלים ראשיים"
+        everyone: "כולם"
+
+    user_action_groups:
+      "1": "לייקים ניתנו"
+      "2": "לייקים התקבלו"
+      "3": "מועדפים"
+      "4": "נושאים"
+      "5": "הודעות"
+      "6": "תגובות"
+      "7": "אזכורים"
+      "9": "ציטוטים"
+      "10": "כוכבים"
+      "11": "עריכות"
+      "12": "פריטים שנשלחו"
+      "13": "דואר נכנס"
+
+    categories:
+      all: "כל הקטגוריות"
+      all_subcategories: "כל תתי הקטגוריות"
+      no_subcategory: "ללא תת קטגוריה"
+      category: "קטגוריה"
+      posts: "הודעות חדשות"
+      topics: "נושאים חדשים"
+      latest: "לאחרונה"
+      latest_by: "לאחרונה על ידי"
+      toggle_ordering: "שנה בקר סדר"
+      subcategories: "תתי קטגוריות"
+      topic_stats: "מספר הנושאים החדשים."
+      topic_stat_sentence:
+        one: "נושא חדש אחד ב-%{unit}."
+        other: "%{count} נושאים חדשים ב-%{unit}."
+      post_stats: "מספר ההודעות החדשות."
+      post_stat_sentence:
+        one: "הודעה חדשה אחת ב-%{unit}."
+        other: "%{count} הודעות חדשות ב-%{unit}."
+
+    user:
+      said: "{{username}} אמר:"
+      profile: "פרופיל"
+      show_profile: "בקר בפרופיל"
+      mute: "השתק"
+      edit: "ערוך העדפות"
+      download_archive: "הורד ארכיון של ההודעות שלי"
+      private_message: "הודעה פרטית"
+      private_messages: "הודעות פרטיות"
+      activity_stream: "פעילות"
+      preferences: "העדפות"
+      bio: "אודותיי"
+      invited_by: "הוזמן על ידי"
+      trust_level: "רמת אמון"
+      notifications: "התרעות"
+      dynamic_favicon: "הראה התרעה על הודעות חדשות באייקון העמוד (נסיוני)"
+      external_links_in_new_tab: "פתח את כל הקישורים החיצוניים בעמוד חדש"
+      enable_quoting: "אפשר תגובת ציטוט לטקסט מסומן"
+      change: "שנה"
+      moderator: "{{user}} הוא מנהל"
+      admin: "{{user}} הוא מנהל ראשי"
+      deleted: "(נמחק)"
+      suspended_notice: "המשתמש הזה מושעה עד לתאריך: {{date}}."
+      suspended_reason: "הסיבה: "
+      mailing_list_mode: "קבל דואר אלקטרוני כל פעם שמפרסמים הודעה בפורום (אלא אם הוא או הקטגוריה מושתקים)"
+      watched_categories: "נצפה"
+      watched_categories_instructions: "אתה אוטומטית תצפה בכל הנושאים החדשים בקטגוריות האלה. אתה תקבל התרעות על כל ההודעות והנושאים החדשים, ובנוסף, כמות ההודעות שלא נקראו יופיעו לצד כל נושא."
+      tracked_categories: "במעקב"
+      tracked_categories_instructions: "אתה אוטומטית תעקוב אחר כל הנושאים בקטגוריות האלה. הכמות של הודעות חדשות ושלא נקראו יופיעו ליד הנושא."
+      muted_categories: "מושתק"
+      muted_categories_instructions: "לא תקבל התרעות בנוגע לנושאים חדשים בקטגוריות האלה, והם לא יופיעו בעמוד הלא נקראו שלך."
+      delete_account: "מחק את החשבון שלי"
+      delete_account_confirm: "אתה בטוח שברצונך למחוק את החשבון? לא ניתן לבטל פעולה זו!"
+      deleted_yourself: "חשבונך נמחק בהצלחה."
+      delete_yourself_not_allowed: "אתה לא יכול למחוק את חשבונך כרגע. צור קשר עם מנהל כדי שימחק אותו בשבילך."
+      unread_message_count:
+        one: "הודעות (1)"
+        other: "הודעות ({{count}})"
+        zero: "הודעות"
+
+      messages:
+        all: "הכל"
+        mine: "שלי"
+        unread: "לא נקראו"
+
+      change_password:
+        success: "(דואר אלקטרוני נשלח)"
+        in_progress: "(שולח דואר אלקטרוני)"
+        error: "(שגיאה)"
+        action: "שלח דואר אלקטרוני לשחזור סיסמה"
+        set_password: "הזן סיסמה"
+
+      change_about:
+        title: "שינוי בנוגע אליי"
+
+      change_username:
+        title: "שנה שם משתמש"
+        confirm: "אם תשנה את שם המשתמש שלך, כל הציטוטים של ההודעות שלך ואזכורי @שם שלך יישברו. אתה בטוח לחלוטין שברצונך לשנות?"
+        taken: "סליחה, שם המשתמש הזה תפוס."
+        error: "ארעה שגיאה בשינוי שם המשתמש שלך."
+        invalid: "שם המשתמש אינו תקין. עליו לכלול רק אותיות ומספרים."
+
+      change_email:
+        title: "שנה דואר אלקטרוני"
+        taken: "סליחה, הכתובת הזו אינה זמינה"
+        error: "הייתה שגיאה בשינוי כתובת הדואר האלקטרוני שלך. אולי היא תפוסה?"
+        success: "שלחנו דואר אלקטרוני לכתובת הדואר הזו. בבקשה עקוב אחרי הוראות האישור שם."
+
+      change_avatar:
+        title: "שנה את האוואטר שלך"
+        gravatar: "<a href='//gravatar.com/emails' target='_blank'>Gravatar</a>, מבוסס על"
+        gravatar_title: "שנה את האוואטר שלך באתר של Gravatar"
+        uploaded_avatar: "תמונה אישית"
+        uploaded_avatar_empty: "הוסף תמונה אישית"
+        upload_title: "העלה את התמונה שלך"
+        image_is_not_a_square: "אזהרה: חתכנו את התמונה שלך, היא לא ריבועית"
+
+      change_profile_background:
+        title: "שנה רקע פרופיל"
+
+      email:
+        title: "דואר אלקטרוני"
+        instructions: "כתובת הדואר האלקטרוני שלך לעולם לא תוצג לציבור."
+        ok: "נראה טוב, נשלח לך דואר אלקטרוני לאישור."
+        invalid: "בבקשה הכנס כתובת דואר אלקטרוני חוקית"
+        authenticated: "כתובת הדואר האלקטרוני שלך אושרה על ידי {{provider}}."
+        frequency: "נשלח לך דואר אלקטרוני רק אם לא ראינו אותך לאחרונה ועדיין לא ראית את מה שאנחנו רוצים לשלוח"
+
+      name:
+        title: "שם"
+        instructions: "הגירסה המלאה של השם, מוצג בפומבי"
+        too_short: "השם שלך קצר מידי"
+        ok: "השם נראה טוב."
+      username:
+        title: "שם משתמש"
+        instructions: "חייב להיות ייחודי, ללא רווחים, קצר. אנשים יכולים לאזכר אותך בעזרת @שם"
+        short_instructions: "אנשים יכולים לאזכר אותך כ @{{username}}."
+        available: "שם המשתמש שלך פנוי."
+        global_match: "הדואר האלקטרוני תואם את שם המשתמש הרשום"
+        global_mismatch: "כבר רשום. נסה {{suggestion}}?"
+        not_available: "לא זמין. נסה {{suggestion}}?"
+        too_short: "שם המשתמש שלך קצר מידי."
+        too_long: "שם המשתמש שלך ארוך מידי."
+        checking: "בודק זמינות שם משתמש..."
+        enter_email: 'נמצא שם משתמש. הכנס דואר אלקטרוני תואם.'
+        prefilled: "הדואר האלקטרוני תואם את שם המשתמש הזה."
+
+      locale:
+        title: "שפת ממשק"
+        instructions: "השפה שבשימוש על ידי ממשק הפורום הזה. ישתנה כשתרענן את העמוד"
+        default: "(ברירת מחדל)"
+
+      password_confirmation:
+        title: "סיסמה שוב"
+
+      last_posted: "הודעה אחרונה"
+      last_emailed: "נשלח לאחרונה בדואר אלקטרוני"
+      last_seen: "נראה"
+      created: "הצטרף"
+      log_out: "התנתק"
+      website: "אתר"
+      email_settings: "דואר אלקטרוני"
+      email_digests:
+        title: "כשאת/ה לא מבקר באתר, שלח סיכום בדואר אלקטרוני של מה חדש"
+        daily: "יומית"
+        weekly: "שבועית"
+        bi_weekly: "דו-שבועית"
+
+      email_direct: "קבל דואר אלקטרוני כשמישהו מצטט אותך, מגיב להודעה שלך, או מזכיר את ה @שם שלך"
+      email_private_messages: "קבל דואר אלקטרוני כשמישהו שולח לך הודעה פרטית"
+      email_always: "קבל  דואר אלקטרוני גם אם אתה פעיל בפורום"
+
+      other_settings: "אחר"
+      categories_settings: "קטגוריות"
+
+      new_topic_duration:
+        label: "החשב נושא חדש כאשר"
+        not_viewed: "עדיין לא צפית בהם"
+        last_here: "הם פורסמו לאחר שהיית כאן פעם אחרונה"
+        after_n_days:
+          one: "הם פורסמו ביום האחרון"
+          other: "הם פורסמו ב-{{count}} הימים האחרונים"
+        after_n_weeks:
+          one: "הם פורסמו בשבוע האחרונה"
+          other: "הם פורסמו ב-{{count}} השבועות האחרונים"
+
+      auto_track_topics: "אוטומטית עקוב אחרי נושאים אליהם אני נכנס"
+      auto_track_options:
+        never: "אף פעם"
+        always: "תמיד"
+        after_n_seconds:
+          one: "אחרי שנייה אחת"
+          other: "אחרי {{count}} שניות"
+        after_n_minutes:
+          one: "אחרי דקה אחת"
+          other: "אחרי {{count}} שניות"
+
+      invited:
+        search: "הקלד כדי לחפש הזמנות..."
+        title: "הזמנות"
+        user: "משתמש שהוזמן"
+        none: "לא נמצאו הזמנות."
+        truncated: "מראה את  {{count}} ההזמנות הראשונות."
+        redeemed: "הזמנות נוצלו"
+        redeemed_at: "נוצלו ב"
+        pending: "הזמנות ממתינות"
+        topics_entered: "נושאים נצפו"
+        posts_read_count: "הודעות נקראו"
+        expired: "פג תוקף ההזמנה."
+        rescind: "הסר הזמנה"
+        rescinded: "הזמנה הוסרה"
+        time_read: "זמן קריאה"
+        days_visited: "Days Visited"
+        account_age_days: "גיל החשבון בימים"
+        create: "הזמן חברים לפורום הזה"
+
+      password:
+        title: "סיסמה"
+        too_short: "הסיסמה שלך קצרה מידי."
+        common: "הסיסמה הזו נפוצה מידי."
+        ok: "הסיסמה שלך נראית טוב."
+        instructions: "יש להכיל לפחות %{count} תווים."
+
+      ip_address:
+        title: "כתובת IP אחרונה"
+      avatar:
+        title: "אוואטר"
+      title:
+        title: "כותרת"
+
+      filters:
+        all: "הכל"
+
+      stream:
+        posted_by: "פורסם על ידי"
+        sent_by: "נשלח על ידי"
+        private_message: "הודעה פרטית"
+        the_topic: "הנושא"
+
+    loading: "טוען..."
+    close: "סגור"
+    assets_changed_confirm: "Discourse עודכן. תרצה לרענן את העמוד כדי לקבל את הגירסה האחרונה?"
+    read_only_mode:
+      enabled: "מנהל ראשי אפשר את מצב קריאה בלבד. ניתן להמשיך לקרוא באתר אבל פעולות לא יעבדו כראוי."
+      login_disabled: "התחברות אינה מתאפשרת כשהאתר במצב קריאה בלבד."
+
+    learn_more: "למד עוד..."
+
+    year: 'שנה'
+    year_desc: 'נושאים שפורסמו ב-365 הימים האחרונים'
+    month: 'חודש'
+    month_desc: 'נושאים שפורסמו ב-30 הימים האחרונים'
+    week: 'שבוע'
+    week_desc: 'נושאים שפורסמו ב-7 הימים האחרונים'
+    day: 'יום'
+
+    first_post: 'הודעה ראשונה'
+    mute: 'השתק'
+    unmute: 'בטל השתקה'
+    last_post: 'הודעה אחרונה'
+
+    summary:
+      enabled_description: "אתה צופה בתקציר של הנושא הזה. כדי לראות את כל ההודעות שוב, הקלק מטה."
+      description: "יש <b>{{count}}</b> תגובות. לחסוך זמן קריאה על ידי הצגת התגובות הרלוונטיות ביותר?"
+      description_time: "יש <b>{{count}}</b> תגובות עם זמן קריאה מוערך של <b>{{readingTime}} דקות</b>. לחסוך זמן קריאה על ידי הצגת התגובות הרלוונטיות ביותר?"
+      enable: 'סכם נושא זה'
+      disable: 'הצג את כל ההודעות'
+
+    private_message_info:
+      title: "הודעה פרטית"
+      invite: "הזמן אחרים..."
+      remove_allowed_user: "האם באמת להסיר את {{name}} מההודעה הפרטית הזו?"
+
+    email: 'דוא"ל'
+    username: 'שם משתמש'
+    last_seen: 'נצפה'
+    created: 'נוצר'
+    trust_level: 'רמת אמון'
+
+    create_account:
+      title: "צור חשבון"
+      action: "צור אחד עכשיו!"
+      invite: "עדיין אין לך חשבון?"
+      failed: "משהו לא בסדר, אולי כבר קיימת כתובת דואר אלקטרוני כזו. נסה את קישור שכחתי סיסמה."
+
+    forgot_password:
+      title: "שכחתי סיסמה"
+      action: "שכחתי את הסיסמה שלי"
+      invite: "הזן שם משתמש או כתובת דואר אלקטרוני ונשלח לך קישור לאיפוס סיסמה"
+      reset: "איפוס סיסמה"
+      complete: "אם יש חשבון עם שם המשתמש או כתובת הדואר האלקטרוני הזה, אתה אמור לקבל הוראות לאיפוס סיסמה מייד."
+
+    login:
+      title: "התחבר"
+      username: "התחברות"
+      password: "סיסמה"
+      email_placeholder: "דואר אלקטרוני או סיסמה"
+      error: "שגיאה לא ידועה"
+      reset_password: 'אפס סיסמה'
+      logging_in: "מתחבר..."
+      or: "או"
+      authenticating: "מאשר..."
+      awaiting_confirmation: "Your account is awaiting activation, use the forgot password link to issue another activation email."
+      awaiting_approval: "Your account has not been approved by a staff member yet. You will be sent an email when it is approved."
+      requires_invite: "Sorry, access to this forum is by invite only."
+      not_activated: "You can't log in yet. We previously sent an activation email to you at <b>{{sentTo}}</b>. Please follow the instructions in that email to activate your account."
+      resend_activation_email: "Click here to send the activation email again."
+      sent_activation_email_again: "We sent another activation email to you at <b>{{currentEmail}}</b>. It might take a few minutes for it to arrive; be sure to check your spam folder."
+      google:
+        title: "with Google"
+        message: "Authenticating with Google (make sure pop up blockers are not enabled)"
+      twitter:
+        title: "with Twitter"
+        message: "Authenticating with Twitter (make sure pop up blockers are not enabled)"
+      facebook:
+        title: "with Facebook"
+        message: "Authenticating with Facebook (make sure pop up blockers are not enabled)"
+      yahoo:
+        title: "with Yahoo"
+        message: "Authenticating with Yahoo (make sure pop up blockers are not enabled)"
+      github:
+        title: "with GitHub"
+        message: "Authenticating with GitHub (make sure pop up blockers are not enabled)"
+
+    composer:
+      posting_not_on_topic: "Which topic do you want to reply to?"
+      saving_draft_tip: "saving"
+      saved_draft_tip: "saved"
+      saved_local_draft_tip: "saved locally"
+      similar_topics: "Your topic is similar to..."
+      drafts_offline: "drafts offline"
+
+      min_length:
+        need_more_for_title: "{{n}} to go for the title"
+        need_more_for_reply: "{{n}} to go for the post"
+
+      error:
+        title_missing: "Title is required."
+        title_too_short: "Title must be at least {{min}} characters long."
+        title_too_long: "Title must be less than {{max}} characters long."
+        post_missing: "Post can't be empty."
+        post_length: "Post must be at least {{min}} characters long."
+        category_missing: "You must choose a category."
+
+      save_edit: "Save Edit"
+      reply_original: "Reply on Original Topic"
+      reply_here: "Reply Here"
+      reply: "Reply"
+      cancel: "Cancel"
+      create_topic: "Create Topic"
+      create_pm: "Create Private Message"
+      title: "Or press Ctrl+Enter"
+
+      users_placeholder: "Add a user"
+      title_placeholder: "Type your title here. What is this discussion about in one brief sentence?"
+      edit_reason_placeholder: "why are you editing?"
+      show_edit_reason: "(add edit reason)"
+      reply_placeholder: "Type here. Use Markdown or BBCode to format. Drag or paste an image to upload it."
+      view_new_post: "View your new post."
+      saving: "Saving..."
+      saved: "Saved!"
+      saved_draft: "You have a post draft in progress. Click anywhere in this box to resume editing."
+      uploading: "Uploading..."
+      show_preview: 'show preview &raquo;'
+      hide_preview: '&laquo; hide preview'
+
+      quote_post_title: "Quote whole post"
+      bold_title: "Strong"
+      bold_text: "strong text"
+      italic_title: "Emphasis"
+      italic_text: "emphasized text"
+      link_title: "Hyperlink"
+      link_description: "enter link description here"
+      link_dialog_title: "Insert Hyperlink"
+      link_optional_text: "optional title"
+      quote_title: "Blockquote"
+      quote_text: "Blockquote"
+      code_title: "Preformatted text"
+      code_text: "enter preformatted text here"
+      upload_title: "Upload"
+      upload_description: "enter upload description here"
+      olist_title: "Numbered List"
+      ulist_title: "Bulleted List"
+      list_item: "List item"
+      heading_title: "Heading"
+      heading_text: "Heading"
+      hr_title: "Horizontal Rule"
+      undo_title: "Undo"
+      redo_title: "Redo"
+      help: "Markdown Editing Help"
+      toggler: "hide or show the composer panel"
+
+      admin_options_title: "Optional staff settings for this topic"
+      auto_close_label: "Auto-close topic time:"
+      auto_close_units: "(# of hours, a time, or a timestamp)"
+      auto_close_examples: 'enter absolute time or number of hours — 24, 17:00, 2013-11-22 14:00'
+      auto_close_error: "Please enter a valid value."
+
+    notifications:
+      title: "notifications of @name mentions, replies to your posts and topics, private messages, etc"
+      none: "You have no notifications right now."
+      more: "view older notifications"
+      mentioned: "<span title='mentioned' class='icon'>@</span> {{username}} {{link}}"
+      quoted: "<i title='quoted' class='fa fa-quote-right'></i> {{username}} {{link}}"
+      replied: "<i title='replied' class='fa fa-reply'></i> {{username}} {{link}}"
+      posted: "<i title='replied' class='fa fa-reply'></i> {{username}} {{link}}"
+      edited: "<i title='edited' class='fa fa-pencil'></i> {{username}} {{link}}"
+      liked: "<i title='liked' class='fa fa-heart'></i> {{username}} {{link}}"
+      private_message: "<i class='fa fa-envelope-o' title='private message'></i> {{username}} {{link}}"
+      invited_to_private_message: "<i class='fa fa-envelope-o' title='private message'></i> {{username}} {{link}}"
+      invitee_accepted: "<i title='accepted your invitation' class='fa fa-sign-in'></i> {{username}} accepted your invitation"
+      moved_post: "<i title='moved post' class='fa fa-arrow-right'></i> {{username}} moved {{link}}"
+      total_flagged: "total flagged posts"
+      linked: "<i title='linked post' class='fa fa-arrow-left'></i> {{username}} {{link}}"
+
+    upload_selector:
+      title: "Add an image"
+      title_with_attachments: "Add an image or a file"
+      from_my_computer: "From my device"
+      from_the_web: "From the web"
+      remote_tip: "link to image http://example.com/image.jpg"
+      remote_tip_with_attachments: "link to image or file http://example.com/file.ext (allowed extensions: {{authorized_extensions}})."
+      local_tip: "click to select an image from your device"
+      local_tip_with_attachments: "click to select an image or a file from your device (allowed extensions: {{authorized_extensions}})"
+      hint: "(you can also drag & drop into the editor to upload them)"
+      hint_for_chrome: "(you can also drag and drop or paste images into the editor to upload them)"
+      uploading: "Uploading"
+      image_link: "link your image will point to"
+
+    search:
+      title: "search for topics, posts, users, or categories"
+      placeholder: "type your search terms here"
+      no_results: "No results found."
+      searching: "Searching ..."
+
+      prefer:
+        user: "search will prefer results by @{{username}}"
+        category: "search will prefer results in {{category}}"
+
+    site_map: "go to another topic list or category"
+    go_back: 'go back'
+    not_logged_in_user: 'user page with summary of current activity and preferences'
+    current_user: 'go to your user page'
+
+    starred:
+      title: 'Star'
+      help:
+        star: 'add this topic to your starred list'
+        unstar: 'remove this topic from your starred list'
+
+    topics:
+      bulk:
+        reset_read: "Reset Read"
+        dismiss_read: "Dismiss Unread"
+        dismiss_new: "Dismiss New"
+        toggle: "toggle bulk selection of topics"
+        actions: "Bulk Actions"
+        change_category: "Change Category"
+        close_topics: "Close Topics"
+        notification_level: "Change Notification Level"
+        selected:
+          one: "You have selected <b>1</b> topic."
+          other: "You have selected <b>{{count}}</b> topics."
+
+      none:
+        starred: "You haven't starred any topics yet. To star a topic, click or tap the star next to the title."
+        unread: "You have no unread topics."
+        new: "You have no new topics."
+        read: "You haven't read any topics yet."
+        posted: "You haven't posted in any topics yet."
+        latest: "There are no latest topics. That's sad."
+        hot: "There are no hot topics."
+        category: "There are no {{category}} topics."
+        top: "There are no top topics."
+      bottom:
+        latest: "There are no more latest topics."
+        hot: "There are no more hot topics."
+        posted: "There are no more posted topics."
+        read: "There are no more read topics."
+        new: "There are no more new topics."
+        unread: "There are no more unread topics."
+        starred: "There are no more starred topics."
+        category: "There are no more {{category}} topics."
+        top: "There are no more top topics."
+
+    topic:
+      filter_to: "{{post_count}} posts in topic"
+      create: 'Create Topic'
+      create_long: 'Create a new Topic'
+      private_message: 'Start a private message'
+      list: 'Topics'
+      new: 'new topic'
+      new_topics:
+        one: '1 new topic'
+        other: '{{count}} new topics'
+      unread_topics:
+        one: '1 unread topic'
+        other: '{{count}} unread topics'
+      title: 'Topic'
+      loading_more: "Loading more topics..."
+      loading: 'Loading topic...'
+      invalid_access:
+        title: "Topic is private"
+        description: "Sorry, you don't have access to that topic!"
+        login_required: "You need to log in to see that topic."
+      server_error:
+        title: "Topic failed to load"
+        description: "Sorry, we couldn't load that topic, possibly due to a connection problem. Please try again. If the problem persists, let us know."
+      not_found:
+        title: "Topic not found"
+        description: "Sorry, we couldn't find that topic. Perhaps it was removed by a moderator?"
+      unread_posts:
+        one: "you have 1 unread old post in this topic"
+        other: "you have {{count}} unread old posts in this topic"
+      new_posts:
+        one: "there is 1 new post in this topic since you last read it"
+        other: "there are {{count}} new posts in this topic since you last read it"
+
+      likes:
+        one: "there is 1 like in this topic"
+        other: "there are {{count}} likes in this topic"
+      back_to_list: "Back to Topic List"
+      options: "Topic Options"
+      show_links: "show links within this topic"
+      toggle_information: "toggle topic details"
+      read_more_in_category: "Want to read more? Browse other topics in {{catLink}} or {{latestLink}}."
+      read_more: "Want to read more? {{catLink}} or {{latestLink}}."
+
+      # keys ending with _MF use message format, see /spec/components/js_local_helper_spec.rb for samples
+      read_more_MF: "There {
+        UNREAD, plural,
+        =0 {}
+        one {
+          is <a href='/unread'>1 unread</a>
+        } other {
+          are <a href='/unread'># unread</a>
+        }
+        } {
+          NEW, plural,
+            =0 {}
+            one { {BOTH, select, true{and } false {is } other{}} <a href='/new'>1 new</a> topic}
+            other { {BOTH, select, true{and } false {are } other{}} <a href='/new'># new</a> topics}
+        } remaining, or {CATEGORY, select, true {browse other topics in {catLink}} false {{latestLink}} other {}}."
+
+      browse_all_categories: Browse all categories
+
+      view_latest_topics: view latest topics
+      suggest_create_topic: Why not create a topic?
+      read_position_reset: "Your read position has been reset."
+      jump_reply_up: jump to earlier reply
+      jump_reply_down: jump to later reply
+      deleted: "The topic has been deleted"
+
+      auto_close_notice: "This topic will automatically close %{timeLeft}."
+      auto_close_title: 'Auto-Close Settings'
+      auto_close_save: "Save"
+      auto_close_remove: "Don't Auto-Close This Topic"
+
+      progress:
+        title: topic progress
+        jump_top: jump to first post (home key)
+        jump_bottom: jump to last post (end key)
+        jump_bottom_with_number: "jump to post %{post_number}"
+        total: total posts
+        current: current post
+        position: "post %{current} of %{total}"
+
+      notifications:
+        reasons:
+          "3_6": 'You will receive notifications because you are watching this category.'
+          "3_5": 'You will receive notifications because you started watching this topic automatically.'
+          "3_2": 'You will receive notifications because you are watching this topic.'
+          "3_1": 'You will receive notifications because you created this topic.'
+          "3": 'You will receive notifications because you are watching this topic.'
+          "2_4": 'You will receive notifications because you posted a reply to this topic.'
+          "2_2": 'You will receive notifications because you are tracking this topic.'
+          "2": 'You will receive notifications because you <a href="/users/{{username}}/preferences">read this topic</a>.'
+          "1": 'You will be notified only if someone mentions your @name or replies to your post.'
+          "1_2": 'You will be notified only if someone mentions your @name or replies to your post.'
+          "0": 'You are ignoring all notifications on this topic.'
+          "0_2": 'You are ignoring all notifications on this topic.'
+        watching_pm:
+          title: "Watching"
+          description: "You will be notified of every new post in this private message. The count of unread and new posts will also appear next to the topic's listing."
+        watching:
+          title: "Watching"
+          description: "You will be notified of every new post in this topic. The count of unread and new posts will also appear next to the topic's listing."
+        tracking_pm:
+          title: "Tracking"
+          description: "You will be notified only if someone mentions your @name or replies to your post. The count of unread and new posts will also appear next to the topic's listing."
+        tracking:
+          title: "Tracking"
+          description: "You will be notified only if someone mentions your @name or replies to your post. The count of unread and new posts will also appear next to the topic's listing."
+        regular:
+          title: "Regular"
+          description: "You will be notified only if someone mentions your @name or replies to your post."
+        muted_pm:
+          title: "Muted"
+          description: "You will never be notified of anything about this private message."
+        muted:
+          title: "Muted"
+          description: "You will never be notified of anything about this topic, and it will not appear on your unread tab."
+
+      actions:
+        recover: "Un-Delete Topic"
+        delete: "Delete Topic"
+        open: "Open Topic"
+        close: "Close Topic"
+        auto_close: "Auto Close"
+        unpin: "Un-Pin Topic"
+        pin: "Pin Topic"
+        pin_globally: "Pin Topic Globally"
+        unarchive: "Unarchive Topic"
+        archive: "Archive Topic"
+        invisible: "Make Invisible"
+        visible: "Make Visible"
+        reset_read: "Reset Read Data"
+        multi_select: "Select Posts"
+        convert_to_topic: "Convert to Regular Topic"
+
+      reply:
+        title: 'Reply'
+        help: 'begin composing a reply to this topic'
+
+      clear_pin:
+        title: "Clear pin"
+        help: "Clear the pinned status of this topic so it no longer appears at the top of your topic list"
+
+      share:
+        title: 'Share'
+        help: 'share a link to this topic'
+
+      flag_topic:
+        title: 'Flag'
+        help: 'privately flag this topic for attention or send a private notification about it'
+        success_message: 'You successfully flagged this topic.'
+
+      inviting: "Inviting..."
+
+      invite_private:
+        title: 'Invite to Private Message'
+        email_or_username: "Invitee's Email or Username"
+        email_or_username_placeholder: "email address or username"
+        action: "Invite"
+        success: "Thanks! We've invited that user to participate in this private message."
+        error: "Sorry, there was an error inviting that user."
+
+      invite_reply:
+        title: 'Invite Friends'
+        action: 'Email Invite'
+        help: 'send invitations to friends so they can reply to this topic with a single click'
+        to_topic: "We'll send a brief email allowing your friend to immediately reply to this topic by clicking a link, no login required."
+        to_forum: "We'll send a brief email allowing your friend to join by clicking a link, no login required."
+
+        email_placeholder: 'name@example.com'
+        success: "Thanks! We mailed out an invitation to <b>{{email}}</b>. We'll let you know when they redeem your invitation. Check the invitations tab on your user page to keep track of who you've invited."
+        error: "Sorry, we couldn't invite that person. Perhaps they are already a user?"
+
+      login_reply: 'Log In to Reply'
+
+      filters:
+        n_posts:
+          one: "1 post"
+          other: "{{count}} posts"
+        cancel: "Show all posts in this topic again."
+
+      split_topic:
+        title: "Move to New Topic"
+        action: "move to new topic"
+        topic_name: "New Topic Name"
+        error: "There was an error moving posts to the new topic."
+        instructions:
+          one: "You are about to create a new topic and populate it with the post you've selected."
+          other: "You are about to create a new topic and populate it with the <b>{{count}}</b> posts you've selected."
+
+      merge_topic:
+        title: "Move to Existing Topic"
+        action: "move to existing topic"
+        error: "There was an error moving posts into that topic."
+        instructions:
+          one: "Please choose the topic you'd like to move that post to."
+          other: "Please choose the topic you'd like to move those <b>{{count}}</b> posts to."
+
+      change_owner:
+        title: "Change Owner of Posts"
+        action: "change ownership"
+        error: "There was an error changing the ownership of the posts."
+        label: "New Owner of Posts"
+        placeholder: "username of new owner"
+        instructions:
+          one: "Please choose the new owner of the post by <b>{{old_user}}</b>."
+          other: "Please choose the new owner of the {{count}} posts by <b>{{old_user}}</b>."
+        instructions_warn: "Note that any notifications about this post will not be transferred to the new user retroactively.<br>Warning: Currently, no post-dependent data is transferred over to the new user. Use with caution."
+
+      multi_select:
+        select: 'select'
+        selected: 'selected ({{count}})'
+        select_replies: 'select +replies'
+        delete: delete selected
+        cancel: cancel selecting
+        select_all: select all
+        deselect_all: deselect all
+        description:
+          one: You have selected <b>1</b> post.
+          other: "You have selected <b>{{count}}</b> posts."
+
+    post:
+      reply: "Replying to {{link}} by {{replyAvatar}} {{username}}"
+      reply_topic: "Reply to {{link}}"
+      quote_reply: "quote reply"
+      edit: "Editing {{link}} by {{replyAvatar}} {{username}}"
+      edit_reason: "Reason: "
+      post_number: "post {{number}}"
+      in_reply_to: "in reply to"
+      last_edited_on: "post last edited on"
+      reply_as_new_topic: "Reply as new Topic"
+      continue_discussion: "Continuing the discussion from {{postLink}}:"
+      follow_quote: "go to the quoted post"
+      show_full: "Show Full Post"
+      deleted_by_author:
+        one: "(post withdrawn by author, will be automatically deleted in %{count} hour unless flagged)"
+        other: "(post withdrawn by author, will be automatically deleted in %{count} hours unless flagged)"
+      deleted_by: "deleted by"
+      expand_collapse: "expand/collapse"
+      gap:
+        one: "1 post hidden"
+        other: "{{count}} posts hidden"
+
+      has_replies:
+        one: "Reply"
+        other: "Replies"
+
+      errors:
+        create: "Sorry, there was an error creating your post. Please try again."
+        edit: "Sorry, there was an error editing your post. Please try again."
+        upload: "Sorry, there was an error uploading that file. Please try again."
+        attachment_too_large: "Sorry, the file you are trying to upload is too big (maximum size is {{max_size_kb}}kb)."
+        image_too_large: "Sorry, the image you are trying to upload is too big (maximum size is {{max_size_kb}}kb), please resize it and try again."
+        too_many_uploads: "Sorry, you can only upload one file at a time."
+        upload_not_authorized: "Sorry, the file you are trying to upload is not authorized (authorized extension: {{authorized_extensions}})."
+        image_upload_not_allowed_for_new_user: "Sorry, new users can not upload images."
+        attachment_upload_not_allowed_for_new_user: "Sorry, new users can not upload attachments."
+
+      abandon:
+        confirm: "Are you sure you want to abandon your post?"
+        no_value: "No, keep"
+        yes_value: "Yes, abandon"
+
+      archetypes:
+        save: 'Save Options'
+
+      controls:
+        reply: "begin composing a reply to this post"
+        like: "like this post"
+        edit: "edit this post"
+        flag: "privately flag this post for attention or send a private notification about it"
+        delete: "delete this post"
+        undelete: "undelete this post"
+        share: "share a link to this post"
+        more: "More"
+        delete_replies:
+          confirm:
+            one: "Do you also want to delete the direct reply to this post?"
+            other: "Do you also want to delete the {{count}} direct replies to this post?"
+          yes_value: "Yes, delete the replies too"
+          no_value: "No, just this post"
+
+      actions:
+        flag: 'Flag'
+        clear_flags:
+          one: "Clear flag"
+          other: "Clear flags"
+        it_too:
+          off_topic: "Flag it too"
+          spam: "Flag it too"
+          inappropriate: "Flag it too"
+          custom_flag: "Flag it too"
+          bookmark: "Bookmark it too"
+          like: "Like it too"
+          vote: "Vote for it too"
+        undo:
+          off_topic: "Undo flag"
+          spam: "Undo flag"
+          inappropriate: "Undo flag"
+          bookmark: "Undo bookmark"
+          like: "Undo like"
+          vote: "Undo vote"
+        people:
+          off_topic: "{{icons}} marked this as off-topic"
+          spam: "{{icons}} marked this as spam"
+          inappropriate: "{{icons}} marked this as inappropriate"
+          notify_moderators: "{{icons}} notified moderators"
+          notify_moderators_with_url: "{{icons}} <a href='{{postUrl}}'>notified moderators</a>"
+          notify_user: "{{icons}} sent a private message"
+          notify_user_with_url: "{{icons}} sent a <a href='{{postUrl}}'>private message</a>"
+          bookmark: "{{icons}} bookmarked this"
+          like: "{{icons}} liked this"
+          vote: "{{icons}} voted for this"
+        by_you:
+          off_topic: "You flagged this as off-topic"
+          spam: "You flagged this as spam"
+          inappropriate: "You flagged this as inappropriate"
+          notify_moderators: "You flagged this for moderation"
+          notify_user: "You sent a private message to this user"
+          bookmark: "You bookmarked this post"
+          like: "You liked this"
+          vote: "You voted for this post"
+        by_you_and_others:
+          off_topic:
+            one: "You and 1 other flagged this as off-topic"
+            other: "You and {{count}} other people flagged this as off-topic"
+          spam:
+            one: "You and 1 other flagged this as spam"
+            other: "You and {{count}} other people flagged this as spam"
+          inappropriate:
+            one: "You and 1 other flagged this as inappropriate"
+            other: "You and {{count}} other people flagged this as inappropriate"
+          notify_moderators:
+            one: "You and 1 other flagged this for moderation"
+            other: "You and {{count}} other people flagged this for moderation"
+          notify_user:
+            one: "You and 1 other sent a private message to this user"
+            other: "You and {{count}} other people sent a private message to this user"
+          bookmark:
+            one: "You and 1 other bookmarked this post"
+            other: "You and {{count}} other people bookmarked this post"
+          like:
+            one: "You and 1 other liked this"
+            other: "You and {{count}} other people liked this"
+          vote:
+            one: "You and 1 other voted for this post"
+            other: "You and {{count}} other people voted for this post"
+        by_others:
+          off_topic:
+            one: "1 person flagged this as off-topic"
+            other: "{{count}} people flagged this as off-topic"
+          spam:
+            one: "1 person flagged this as spam"
+            other: "{{count}} people flagged this as spam"
+          inappropriate:
+            one: "1 person flagged this as inappropriate"
+            other: "{{count}} people flagged this as inappropriate"
+          notify_moderators:
+            one: "1 person flagged this for moderation"
+            other: "{{count}} people flagged this for moderation"
+          notify_user:
+            one: "1 person sent a private message to this user"
+            other: "{{count}} sent a private message to this user"
+          bookmark:
+            one: "1 person bookmarked this post"
+            other: "{{count}} people bookmarked this post"
+          like:
+            one: "1 person liked this"
+            other: "{{count}} people liked this"
+          vote:
+            one: "1 person voted for this post"
+            other: "{{count}} people voted for this post"
+
+      edits:
+        one: 1 edit
+        other: "{{count}} edits"
+        zero: no edits
+
+      delete:
+        confirm:
+          one: "Are you sure you want to delete that post?"
+          other: "Are you sure you want to delete all those posts?"
+
+      revisions:
+        controls:
+          first: "First revision"
+          previous: "Previous revision"
+          next: "Next revision"
+          last: "Last revision"
+          comparing_previous_to_current_out_of_total: "<strong>{{previous}}</strong> vs <strong>{{current}}</strong> / {{total}}"
+        displays:
+          inline:
+            title: "Show the rendered output with additions and removals inline"
+            button: '<i class="fa fa-square-o"></i> HTML'
+          side_by_side:
+            title: "Show the rendered output diffs side-by-side"
+            button: '<i class="fa fa-columns"></i> HTML'
+          side_by_side_markdown:
+            title: "Show the markdown source diffs side-by-side"
+            button: '<i class="fa fa-columns"></i> Markdown'
+        details:
+          edited_by: "Edited by"
+
+    category:
+      can: 'can&hellip; '
+      none: '(no category)'
+      choose: 'Select a category&hellip;'
+      edit: 'edit'
+      edit_long: "Edit Category"
+      view: 'View Topics in Category'
+      general: 'General'
+      settings: 'Settings'
+      delete: 'Delete Category'
+      create: 'Create Category'
+      save: 'Save Category'
+      creation_error: There has been an error during the creation of the category.
+      save_error: There was an error saving the category.
+      more_posts: "view all {{posts}}..."
+      name: "Category Name"
+      description: "Description"
+      topic: "category topic"
+      badge_colors: "Badge colors"
+      background_color: "Background color"
+      foreground_color: "Foreground color"
+      name_placeholder: "One or two words maximum"
+      color_placeholder: "Any web color"
+      delete_confirm: "Are you sure you want to delete this category?"
+      delete_error: "There was an error deleting the category."
+      list: "List Categories"
+      no_description: "There is no description for this category, edit the topic definition."
+      change_in_category_topic: "Edit Description"
+      already_used: 'This color has been used by another category'
+      security: "Security"
+      auto_close_label: "Auto-close topics after:"
+      auto_close_units: "hours"
+      email_in: "Custom incoming email address:"
+      email_in_allow_strangers: "Accept emails from non-users (aka strangers)"
+      edit_permissions: "Edit Permissions"
+      add_permission: "Add Permission"
+      this_year: "this year"
+      position: "position"
+      default_position: "Default Position"
+      parent: "Parent Category"
+
+    flagging:
+      title: 'Why are you privately flagging this post?'
+      action: 'Flag Post'
+      take_action: "Take Action"
+      notify_action: 'Private message'
+      delete_spammer: "Delete Spammer"
+      delete_confirm: "You are about to delete <b>%{posts}</b> posts and <b>%{topics}</b> topics from this user, remove their account, block signups from their IP address <b>%{ip_address}</b>, and add their email address <b>%{email}</b> to a permanent block list. Are you sure this user is really a spammer?"
+      yes_delete_spammer: "Yes, Delete Spammer"
+      cant: "Sorry, you can't flag this post at this time."
+      custom_placeholder_notify_user: "Why does this post require you to speak to this user directly and privately? Be specific, be constructive, and always be kind."
+      custom_placeholder_notify_moderators: "Why does this post require moderator attention? Let us know specifically what you are concerned about, and provide relevant links where possible."
+      custom_message:
+        at_least: "enter at least {{n}} characters"
+        more: "{{n}} to go..."
+        left: "{{n}} remaining"
+
+    flagging_topic:
+      title: "Why are you privately flagging this topic?"
+      action: "Flag Topic"
+      notify_action: "Private message"
+
+    topic_map:
+      title: "Topic Summary"
+      links_shown: "show all {{totalLinks}} links..."
+      clicks:
+        one: "1 click"
+        other: "%{count} clicks"
+
+    topic_statuses:
+      locked:
+        help: "This topic is closed; it no longer accepts new replies"
+      archived:
+        help: "This topic is archived; it no longer accepts new replies"
+      unpinned:
+        title: "Unpinned"
+        help: "This topic is unpinned; it will display in default order"
+      pinned_globally:
+        title: "Pinned Globally"
+        help: "This topic is pinned globally; it will display at the top of all lists"
+      pinned:
+        title: "Pinned"
+        help: "This topic is pinned; it will display at the top of its category"
+      archived:
+        help: "This topic is archived; it is frozen and cannot be changed"
+      invisible:
+        help: "This topic is invisible; it will not be displayed in topic lists, and can only be accessed via a direct link"
+
+    posts: "Posts"
+    posts_long: "there are {{number}} posts in this topic"
+    original_post: "Original Post"
+    views: "Views"
+    replies: "Replies"
+    views_long: "this topic has been viewed {{number}} times"
+    activity: "Activity"
+    likes: "Likes"
+    likes_long: "there are {{number}} likes in this topic"
+    users: "Users"
+    category_title: "Category"
+    history: "History"
+    changed_by: "by {{author}}"
+
+    categories_list: "Categories List"
+
+    filters:
+      with_topics: "%{filter} Topics"
+      with_category: "%{filter} %{category} Topics"
+      latest:
+        title: "Latest"
+        help: "topics with recent posts"
+      hot:
+        title: "Hot"
+        help: "a selection of the hottest topics"
+      starred:
+        title: "Starred"
+        help: "topics you starred"
+      read:
+        title: "Read"
+        help: "topics you've read, in the order that you last read them"
+      categories:
+        title: "Categories"
+        title_in: "Category - {{categoryName}}"
+        help: "all topics grouped by category"
+      unread:
+        title:
+          zero: "Unread"
+          one: "Unread (1)"
+          other: "Unread ({{count}})"
+        help: "topics you are watching or tracking with unread posts"
+      new:
+        lower_title_with_count:
+          zero: ""
+          one: "1 new"
+          other: "{{count}} new"
+        lower_title: "new"
+        title:
+          zero: "New"
+          one: "New (1)"
+          other: "New ({{count}})"
+        help: "topics created since your last visit"
+      posted:
+        title: "My Posts"
+        help: "topics you have posted in"
+      category:
+        title:
+          zero: "{{categoryName}}"
+          one: "{{categoryName}} (1)"
+          other: "{{categoryName}} ({{count}})"
+        help: "latest topics in the {{categoryName}} category"
+      top:
+        title: "Top"
+        help: "a selection of best topics in the last year, month, week or day"
+        yearly:
+          title: "Top Yearly"
+        monthly:
+          title: "Top Monthly"
+        weekly:
+          title: "Top Weekly"
+        daily:
+          title: "Top Daily"
+        this_year: "This year"
+        this_month: "This month"
+        this_week: "This week"
+        today: "Today"
+        other_periods: "see more top topics"
+
+    browser_update: 'Unfortunately, <a href="http://www.discourse.org/faq/#browser">your browser is too old to work on this Discourse forum</a>. Please <a href="http://browsehappy.com">upgrade your browser</a>.'
+
+    permission_types:
+      full: "Create / Reply / See"
+      create_post: "Reply / See"
+      readonly: "See"
+
+  # This section is exported to the javascript for i18n in the admin section
+  admin_js:
+    type_to_filter: "type to filter..."
+
+    admin:
+      title: 'Discourse Admin'
+      moderator: 'Moderator'
+
+      dashboard:
+        title: "Dashboard"
+        last_updated: "Dashboard last updated:"
+        version: "Version"
+        up_to_date: "You're up to date!"
+        critical_available: "A critical update is available."
+        updates_available: "Updates are available."
+        please_upgrade: "Please upgrade!"
+        no_check_performed: "A check for updates has not been performed. Ensure sidekiq is running."
+        stale_data: "A check for updates has not been performed lately. Ensure sidekiq is running."
+        version_check_pending: "Looks like you upgraded recently. Fantastic!"
+        installed_version: "Installed"
+        latest_version: "Latest"
+        problems_found: "Some problems have been found with your installation of Discourse:"
+        last_checked: "Last checked"
+        refresh_problems: "Refresh"
+        no_problems: "No problems were found."
+        moderators: 'Moderators:'
+        admins: 'Admins:'
+        blocked: 'Blocked:'
+        suspended: 'Suspended:'
+        private_messages_short: "PMs"
+        private_messages_title: "Private Messages"
+
+        reports:
+          today: "Today"
+          yesterday: "Yesterday"
+          last_7_days: "Last 7 Days"
+          last_30_days: "Last 30 Days"
+          all_time: "All Time"
+          7_days_ago: "7 Days Ago"
+          30_days_ago: "30 Days Ago"
+          all: "All"
+          view_table: "View as Table"
+          view_chart: "View as Bar Chart"
+
+      commits:
+        latest_changes: "Latest changes: please update often!"
+        by: "by"
+
+      flags:
+        title: "Flags"
+        old: "Old"
+        active: "Active"
+
+        agree_hide: "Agree (hide post + send PM)"
+        agree_hide_title: "Hide this post and automatically send the user a private message urging them to edit it"
+        defer: "Defer"
+        defer_title: "No action is necessary at this time, defer any action on this flag until a later date, or never"
+        delete_post: "Delete Post"
+        delete_post_title: "Delete post; if the first post, delete the topic"
+        disagree_unhide: "Disagree (unhide post)"
+        disagree_unhide_title: "Remove any flags from this post and make the post visible again"
+        disagree: "Disagree"
+        disagree_title: "Disagree with flag, remove any flags from this post"
+        delete_spammer_title: "Delete the user and all its posts and topics."
+        clear_topic_flags: "Done"
+        clear_topic_flags_title: "The topic has been investigated and issues have been resolved. Click Done to remove the flags."
+
+        flagged_by: "Flagged by"
+        system: "System"
+        error: "Something went wrong"
+        view_message: "Reply"
+        no_results: "There are no flags."
+        topic_flagged: "This <strong>topic</strong> has been flagged."
+        visit_topic: "Visit the topic to investigate and take action."
+
+        summary:
+          action_type_3:
+            one: "off-topic"
+            other: "off-topic x{{count}}"
+          action_type_4:
+            one: "inappropriate"
+            other: "inappropriate x{{count}}"
+          action_type_6:
+            one: "custom"
+            other: "custom x{{count}}"
+          action_type_7:
+            one: "custom"
+            other: "custom x{{count}}"
+          action_type_8:
+            one: "spam"
+            other: "spam x{{count}}"
+
+      groups:
+        primary: "Primary Group"
+        no_primary: "(no primary group)"
+        title: "Groups"
+        edit: "Edit Groups"
+        refresh: "Refresh"
+        new: "New"
+        selector_placeholder: "add users"
+        name_placeholder: "Group name, no spaces, same as username rule"
+        about: "Edit your group membership and names here"
+        group_members: "Group members"
+        delete: "Delete"
+        delete_confirm: "Delete this group?"
+        delete_failed: "Unable to delete group. If this is an automatic group, it cannot be destroyed."
+
+      api:
+        generate_master: "Generate Master API Key"
+        none: "There are no active API keys right now."
+        user: "User"
+        title: "API"
+        key: "API Key"
+        generate: "Generate"
+        regenerate: "Regenerate"
+        revoke: "Revoke"
+        confirm_regen: "Are you sure you want to replace that API Key with a new one?"
+        confirm_revoke: "Are you sure you want to revoke that key?"
+        info_html: "Your API key will allow you to create and update topics using JSON calls."
+        all_users: "All Users"
+        note_html: "Keep this key <strong>secret</strong>, all users that have it may create arbitrary posts on the forum as any user."
+
+      backups:
+        title: "Backups"
+        menu:
+          backups: "Backups"
+          logs: "Logs"
+        none: "No backup available."
+        read_only:
+          enable:
+            title: "Enable the read-only mode"
+            text: "Enable read-only mode"
+            confirm: "Are you sure you want to enable the read-only mode?"
+          disable:
+            title: "Disable the read-only mode"
+            text: "Disable read-only mode"
+        logs:
+          none: "No logs yet..."
+        columns:
+          filename: "Filename"
+          size: "Size"
+        upload:
+          text: "UPLOAD"
+          uploading: "UPLOADING"
+          success: "'{{filename}}' has successfully been uploaded."
+          error: "There has been an error while uploading '{{filename}}': {{message}}"
+        operations:
+          is_running: "An operation is currently running..."
+          failed: "The {{operation}} failed. Please check the logs."
+          cancel:
+            text: "Cancel"
+            title: "Cancel the current operation"
+            confirm: "Are you sure you want to cancel the current operation?"
+          backup:
+            text: "Backup"
+            title: "Create a backup"
+            confirm: "Are you sure you want to start a new backup?"
+          download:
+            text: "Download"
+            title: "Download the backup"
+          destroy:
+            text: "Delete"
+            title: "Remove the backup"
+            confirm: "Are you sure you want to destroy this backup?"
+          restore:
+            is_disabled: "Restore is disabled in the site settings."
+            text: "Restore"
+            title: "Restore the backup"
+            confirm: "Are your sure you want to restore this backup?"
+          rollback:
+            text: "Rollback"
+            title: "Rollback the database to previous working state"
+            confirm: "Are your sure you want to rollback the database to the previous working state?"
+
+      customize:
+        title: "Customize"
+        long_title: "Site Customizations"
+        header: "Header"
+        css: "Stylesheet"
+        mobile_header: "Mobile Header"
+        mobile_css: "Mobile Stylesheet"
+        override_default: "Do not include standard style sheet"
+        enabled: "Enabled?"
+        preview: "preview"
+        undo_preview: "undo preview"
+        save: "Save"
+        new: "New"
+        new_style: "New Style"
+        delete: "Delete"
+        delete_confirm: "Delete this customization?"
+        about: "Site Customization allow you to modify stylesheets and headers on the site. Choose or add one to start editing."
+
+      email:
+        title: "Email"
+        settings: "Settings"
+        all: "All"
+        sending_test: "Sending test Email..."
+        test_error: "There was an issue sending email. Please check your settings and try again."
+        sent: "Sent"
+        skipped: "Skipped"
+        sent_at: "Sent At"
+        time: "Time"
+        user: "User"
+        email_type: "Email Type"
+        to_address: "To Address"
+        test_email_address: "email address to test"
+        send_test: "send test email"
+        sent_test: "sent!"
+        delivery_method: "Delivery Method"
+        preview_digest: "Preview Digest"
+        preview_digest_desc: "This is a tool for previewing the content of the digest emails sent from your forum."
+        refresh: "Refresh"
+        format: "Format"
+        html: "html"
+        text: "text"
+        last_seen_user: "Last Seen User:"
+        reply_key: "Reply Key"
+        skipped_reason: "Skip Reason"
+        logs:
+          none: "No logs found."
+          filters:
+            title: "Filter"
+            user_placeholder: "username"
+            address_placeholder: "em@il.com"
+            type_placeholder: "digest, signup..."
+            reply_key_placeholder: ""
+            skipped_reason_placeholder: "reason"
+
+      logs:
+        title: "Logs"
+        action: "Action"
+        created_at: "Created"
+        last_match_at: "Last Matched"
+        match_count: "Matches"
+        ip_address: "IP"
+        delete: 'Delete'
+        edit: 'Edit'
+        save: 'Save'
+        screened_actions:
+          block: "block"
+          do_nothing: "do nothing"
+        staff_actions:
+          title: "Staff Actions"
+          instructions: "Click usernames and actions to filter the list. Click avatars to go to user pages."
+          clear_filters: "Show Everything"
+          staff_user: "Staff User"
+          target_user: "Target User"
+          subject: "Subject"
+          when: "When"
+          context: "Context"
+          details: "Details"
+          previous_value: "Previous"
+          new_value: "New"
+          diff: "Diff"
+          show: "Show"
+          modal_title: "Details"
+          no_previous: "There is no previous value."
+          deleted: "No new value. The record was deleted."
+          actions:
+            delete_user: "delete user"
+            change_trust_level: "change trust level"
+            change_site_setting: "change site setting"
+            change_site_customization: "change site customization"
+            delete_site_customization: "delete site customization"
+            suspend_user: "suspend user"
+            unsuspend_user: "unsuspend user"
+            grant_badge: "grant badge"
+            revoke_badge: "revoke badge"
+        screened_emails:
+          title: "Screened Emails"
+          description: "When someone tries to create a new account, the following email addresses will be checked and the registration will be blocked, or some other action performed."
+          email: "Email Address"
+        screened_urls:
+          title: "Screened URLs"
+          description: "The URLs listed here were used in posts by users who have been identified as spammers."
+          url: "URL"
+          domain: "Domain"
+        screened_ips:
+          title: "Screened IPs"
+          description: 'IP addresses that are being watched. Use "Allow" to whitelist IP addresses.'
+          delete_confirm: "Are you sure you want to remove the rule for %{ip_address}?"
+          actions:
+            block: "Block"
+            do_nothing: "Allow"
+          form:
+            label: "New:"
+            ip_address: "IP address"
+            add: "Add"
+
+      impersonate:
+        title: "Impersonate User"
+        username_or_email: "Username or Email of User"
+        help: "Use this tool to impersonate a user account for debugging purposes."
+        not_found: "That user can't be found."
+        invalid: "Sorry, you may not impersonate that user."
+
+      users:
+        title: 'Users'
+        create: 'Add Admin User'
+        last_emailed: "Last Emailed"
+        not_found: "Sorry, that username doesn't exist in our system."
+        active: "Active"
+        nav:
+          new: "New"
+          active: "Active"
+          pending: "Pending"
+          admins: 'Admins'
+          moderators: 'Mods'
+          suspended: 'Suspended'
+          blocked: 'Blocked'
+        approved: "Approved?"
+        approved_selected:
+          one: "approve user"
+          other: "approve users ({{count}})"
+        reject_selected:
+          one: "reject user"
+          other: "reject users ({{count}})"
+        titles:
+          active: 'Active Users'
+          new: 'New Users'
+          pending: 'Users Pending Review'
+          newuser: 'Users at Trust Level 0 (New User)'
+          basic: 'Users at Trust Level 1 (Basic User)'
+          regular: 'Users at Trust Level 2 (Regular User)'
+          leader: 'Users at Trust Level 3 (Leader)'
+          elder: 'Users at Trust Level 4 (Elder)'
+          admins: 'Admin Users'
+          moderators: 'Moderators'
+          blocked: 'Blocked Users'
+          suspended: 'Suspended Users'
+        reject_successful:
+          one: "Successfully rejected 1 user."
+          other: "Successfully rejected %{count} users."
+        reject_failures:
+          one: "Failed to reject 1 user."
+          other: "Failed to reject %{count} users."
+
+      user:
+        suspend_failed: "Something went wrong suspending this user {{error}}"
+        unsuspend_failed: "Something went wrong unsuspending this user {{error}}"
+        suspend_duration: "How long will the user be suspended for?"
+        suspend_duration_units: "(days)"
+        suspend_reason_label: "Why are you suspending? This text <b>will be visible to everyone</b> on this user's profile page, and will be shown to the user when they try to log in. Keep it short."
+        suspend_reason: "Reason"
+        suspended_by: "Suspended by"
+        delete_all_posts: "Delete all posts"
+        delete_all_posts_confirm: "You are about to delete %{posts} posts and %{topics} topics. Are you sure?"
+        suspend: "Suspend"
+        unsuspend: "Unsuspend"
+        suspended: "Suspended?"
+        moderator: "Moderator?"
+        admin: "Admin?"
+        blocked: "Blocked?"
+        show_admin_profile: "Admin"
+        edit_title: "Edit Title"
+        save_title: "Save Title"
+        refresh_browsers: "Force browser refresh"
+        show_public_profile: "Show Public Profile"
+        impersonate: 'Impersonate'
+        revoke_admin: 'Revoke Admin'
+        grant_admin: 'Grant Admin'
+        revoke_moderation: 'Revoke Moderation'
+        grant_moderation: 'Grant Moderation'
+        unblock: 'Unblock'
+        block: 'Block'
+        reputation: Reputation
+        permissions: Permissions
+        activity: Activity
+        like_count: Likes Received
+        private_topics_count: Private Topics
+        posts_read_count: Posts Read
+        post_count: Posts Created
+        topics_entered: Topics Viewed
+        flags_given_count: Flags Given
+        flags_received_count: Flags Received
+        approve: 'Approve'
+        approved_by: "approved by"
+        approve_success: "User approved and email sent with activation instructions."
+        approve_bulk_success: "Success! All selected users have been approved and notified."
+        time_read: "Read Time"
+        delete: "Delete User"
+        delete_forbidden_because_staff: "Admins and moderators can't be deleted."
+        delete_forbidden:
+          one: "Users can't be deleted if they have posts. Delete all posts before trying to delete a user. (Posts older than %{count} day old can't be deleted.)"
+          other: "Users can't be deleted if they have posts. Delete all posts before trying to delete a user. (Posts older than %{count} days old can't be deleted.)"
+        cant_delete_all_posts:
+          one: "Can't delete all posts. Some posts are older than %{count} day old. (The delete_user_max_post_age setting.)"
+          other: "Can't delete all posts. Some posts are older than %{count} days old. (The delete_user_max_post_age setting.)"
+        cant_delete_all_too_many_posts:
+          one: "Can't delete all posts because the user has more than 1 post. (The delete_all_posts_max setting.)"
+          other: "Can't delete all posts because the user has more than %{count} posts.  (The delete_all_posts_max setting.)"
+        delete_confirm: "Are you SURE you want to delete this user? This action is permanent!"
+        delete_and_block: "<b>Yes</b>, and <b>block</b> future signups from this email and IP address"
+        delete_dont_block: "<b>Yes</b>, just delete the user"
+        deleted: "The user was deleted."
+        delete_failed: "There was an error deleting that user. Make sure all posts are deleted before trying to delete the user."
+        send_activation_email: "Send Activation Email"
+        activation_email_sent: "An activation email has been sent."
+        send_activation_email_failed: "There was a problem sending another activation email. %{error}"
+        activate: "Activate Account"
+        activate_failed: "There was a problem activating the user."
+        deactivate_account: "Deactivate Account"
+        deactivate_failed: "There was a problem deactivating the user."
+        unblock_failed: 'There was a problem unblocking the user.'
+        block_failed: 'There was a problem blocking the user.'
+        deactivate_explanation: "A deactivated user must re-validate their email."
+        suspended_explanation: "A suspended user can't log in."
+        block_explanation: "A blocked user can't post or start topics."
+        trust_level_change_failed: "There was a problem changing the user's trust level."
+        suspend_modal_title: "Suspend User"
+        trust_level_2_users: "Trust Level 2 Users"
+        trust_level_3_requirements: "Trust Level 3 Requirements"
+        tl3_requirements:
+          title: "Requirements for Trust Level 3"
+          table_title: "In the last 100 days:"
+          value_heading: "Value"
+          requirement_heading: "Requirement"
+          visits: "Visits"
+          days: "days"
+          topics_with_replies: "Topics with Replies"
+          topics_replied_to: "Topics Replied To"
+          quality_content: "Quality Content"
+          reading: "Reading"
+          site_promotion: "Site Promotion"
+          flagged_posts: "Flagged Posts"
+
+      site_content:
+        none: "Choose a type of content to begin editing."
+        title: 'Content'
+        edit: "Edit Site Content"
+
+      site_settings:
+        show_overriden: 'Only show overridden'
+        title: 'Settings'
+        reset: 'reset to default'
+        none: 'none'
+        no_results: "No results found."
+        clear_filter: "Clear"
+        categories:
+          all_results: 'All'
+          required: 'Required'
+          basic: 'Basic Setup'
+          users: 'Users'
+          posting: 'Posting'
+          email: 'Email'
+          files: 'Files'
+          trust: 'Trust Levels'
+          security: 'Security'
+          onebox: "Onebox"
+          seo: 'SEO'
+          spam: 'Spam'
+          rate_limits: 'Rate Limits'
+          developer: 'Developer'
+          embedding: "Embedding"
+          legal: "Legal"
+          uncategorized: 'Uncategorized'
+          backups: "Backups"
+
+      badges:
+        title: Badges
+        new_badge: New Badge
+        new: New
+        name: Name
+        display_name: Display Name
+        description: Description
+        badge_type: Badge Type
+        granted_by: Granted By
+        granted_at: Granted At
+        save: Save
+        delete: Delete
+        delete_confirm: Are you sure you want to delete this badge?
+        revoke: Revoke
+        revoke_confirm: Are you sure you want to revoke this badge?
+        edit_badges: Edit Badges
+        grant_badge: Grant Badge
+        granted_badges: Granted Badges
+        grant: Grant
+        no_user_badges: "%{name} has not been granted any badges."
+        no_badges: There are no badges that can be granted.
+
+    lightbox:
+      download: "הורד"
+
+    keyboard_shortcuts_help:
+      title: 'Keyboard Shortcuts (experimental)'
+      jump_to:
+        title: 'Jump To'
+        home: '<b>g</b> then <b>h</b> Home (Latest)'
+        latest: '<b>g</b> then <b>l</b> Latest'
+        new: '<b>g</b> then <b>n</b> New'
+        unread: '<b>g</b> then <b>u</b> Unread'
+        starred: '<b>g</b> then <b>f</b> Starred'
+        categories: '<b>g</b> then <b>c</b> Categories'
+      navigation:
+        title: 'Navigation'
+        back: '<b>u</b> Back'
+        up_down: '<b>k</b>/<b>j</b> Move selection up/down'
+        open: '<b>o</b> or <b>Enter</b> Open selected topic'
+        next_prev: '<b>`</b>/<b>~</b> Next/previous section'
+      application:
+        title: 'Application'
+        create: '<b>c</b> Create a new topic'
+        notifications: '<b>n</b> Open notifications'
+        search: '<b>/</b> Search'
+        help: '<b>?</b> Open keyboard shortcuts help'
+      actions:
+        title: 'Actions'
+        star: '<b>f</b> Star topic'
+        share_topic: '<b>s</b> Share topic'
+        share_post: '<b>shift s</b> Share post'
+        reply_topic: '<b>r</b> Reply to topic'
+        reply_post: '<b>shift r</b> Reply to post'
+        like: '<b>l</b> Like post'
+        flag: '<b>!</b> Flag post'
+        bookmark: '<b>b</b> Bookmark post'
+        edit: '<b>e</b> Edit post'
+        delete: '<b>d</b> Delete post'
+        mark_muted: '<b>m</b> then <b>m</b> Mark topic as muted'
+        mark_regular: '<b>m</b> then <b>r</b> Mark topic as regular'
+        mark_tracking: '<b>m</b> then <b>t</b> Mark topic as tracking'
+        mark_watching: '<b>m</b> then <b>w</b> Mark topic as watching'
+
+    badges:
+      badge_count:
+        one:   "תג אחד"
+        other: "%{count} תגים"
+      more_badges:
+        one:   "עוד +1"
+        other: "עוד +%{count}"
+      example_badge:
+        name: 'תג לדוגמה'
+        description: 'זה תג כללי לדוגמה'
