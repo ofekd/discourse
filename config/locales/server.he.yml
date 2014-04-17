@@ -19,96 +19,96 @@ he:
       date_only: "%b %-d, %Y"
 
   title: "Discourse"
-  topics: "Topics"
-  posts: "posts"
-  loading: "Loading"
-  powered_by_html: 'Powered by <a href="http://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled'
-  log_in: "Log In"
+  topics: "נושאים"
+  posts: "הודעות"
+  loading: "טוען"
+  powered_by_html: 'מונע ע"י <a href="http://www.discourse.org">Discourse</a>, פועל מיטבית עם Javascript'
+  log_in: "התחברות"
 
-  via: "%{username} via %{site_name}"
-  is_reserved: "is reserved"
+  via: "%{username} עם %{site_name}"
+  is_reserved: "שמור"
 
   errors:
     embed:
-      load_from_remote: "There was an error loading that post."
+      load_from_remote: "ארעה שגיאה בטעינת ההודעה הזו."
 
   backup:
-    operation_already_running: "An operation is currently running. Can't start a new job right now."
-    backup_file_should_be_tar_gz: "The backup file should be a .tar.gz archive."
-    not_enough_space_on_disk: "There is not enough space on disk to upload this backup."
+    operation_already_running: "פעולה רצה כרגע. לא יכול להתחיל עבודה חדשה עכשיו."
+    backup_file_should_be_tar_gz: "קובץ הגיוי צריך להיות .tar.gz."
+    not_enough_space_on_disk: "אין מספיק מקום על הדיסק כדי להעלות את הגיבוי הזה."
 
-  not_logged_in: "You need to be logged in to do that."
-  read_only_mode_enabled: "The site is in read only mode. Interactions are disabled."
+  not_logged_in: "אתה צריך להיות מחובר כדי לעשות את זה."
+  read_only_mode_enabled: "האתר הזה במצב קריאה בלבד. פעולות אין אפשריות."
 
   too_many_replies:
-    one: "We're sorry, but new users are temporarily limited to 1 reply in the same topic."
-    other: "We're sorry, but new users are temporarily limited to %{count} replies in the same topic."
+    one: "אנחנו מצטערים, אבל משתמשים חדשים מוגבלים זמנים לתגובה אחת לאותו הנושא."
+    other: "אנחנו מצטערים, אבל משתמשים חדשים מוגבלים זמנים ל-%{count} תגובות לאותו הנושא."
 
   embed:
-    start_discussion: "Begin the Discussion"
-    continue: "Continue the Discussion"
+    start_discussion: "התחלת הדיון"
+    continue: "המשך הדיון"
     more_replies:
-      one: "1 more reply"
-      other: "%{count} more replies"
+      one: "עוד תגובה אחת"
+      other: "עוד %{count} תגובות"
 
-    loading: "Loading Discussion..."
-    permalink: "Permalink"
-    imported_from: "This is a companion discussion topic for the original entry at %{link}"
-    in_reply_to: "in reply to %{username}"
+    loading: "טוען דיון..."
+    permalink: "קישור"
+    imported_from: "זה דיון מלווה לערך המקורי ב- %{link}"
+    in_reply_to: "בתגובה ל %{username}"
     replies:
-      one: "1 reply"
-      other: "%{count} replies"
+      one: "תגובה אחת"
+      other: "%{count} תגובות"
 
   too_many_mentions:
-    zero: "Sorry, you can't mention other users."
-    one: "Sorry, you can only mention one other user in a post."
-    other: "Sorry, you can only mention %{count} users in a post."
+    zero: "סליחה, אתה לא יכול לאזכר משתמשים אחרים"
+    one: "סליחה, אתה יכול לאזכר רק משתמש אחד בהודעה."
+    other: "סליחה, אתה יכול לאזכר רק %{count} משתמשים לכל היותר בהודעה"
   too_many_mentions_newuser:
-    zero: "Sorry, new users can't mention other users."
-    one: "Sorry, new users can only mention one other user in a post."
-    other: "Sorry, new users can only mention %{count} users in a post."
+    zero: "סליחה, משתמשים חדשים לא יכולים לאזכר משתמשים אחרים."
+    one: "סליחה, משתמשים חדשים יכולים לאזכר רק משתמש אחד בהודעה."
+    other: "סליחה, משתמשים חדשים יכולים לאזכר רק %{count} משתמשים לכל היותר בהודעה."
   too_many_images:
-    zero: "Sorry, new users can't put images in posts."
-    one: "Sorry, new users can only put one image in a post."
-    other: "Sorry, new users can only put %{count} images in a post."
+    zero: "סליחה, משתמשים חדשים לא יכולים להוסיף תמונות להודעות."
+    one: "סליחה, משתמשים חדשים יכולים להוסיף רק הודעה אחת להודעה."
+    other: "סליחה, משתמשים חדשים יכולים להוסיף %{count} תמונות לכל היותר להודעה."
   too_many_attachments:
-    zero: "Sorry, new users can't put attachments in posts."
-    one: "Sorry, new users can only put one attachment in a post."
-    other: "Sorry, new users can only put %{count} attachments in a post."
+    zero: "סליחה, משתמשים חדשים לא יכולים לצרף קבצים להודעות."
+    one: "סליחה, משתמשים חדשים יכולים להוסיף רק קובץ אחד להודעה."
+    other: "סליחה, משתמשים חדשים יכולים  להוסיף רק %{count} קבצים לכל היותר להודעה."
   too_many_links:
-    zero: "Sorry, new users can't put links in posts."
-    one: "Sorry, new users can only put one link in a post."
-    other: "Sorry, new users can only put %{count} links in a post."
-  spamming_host: "Sorry you cannot post a link to that host."
+    zero: "ליחה, משתמשים חדשים לא יכולים להוסיף קישורים להודעות."
+    one: "סליחה, משתמשים חדשים יכולים להוסיף רק קישור אחד להודעה."
+    other: "סליחה, משתמשים חדשים יכולים להוסיף רק %{count} קישורים לכל היותר להודעה."
+  spamming_host: "סליחה אך אינך יכול להוסיף קישור לאתר זה."
 
-  just_posted_that: "is too similar to what you recently posted"
-  has_already_been_used: "has already been used"
-  invalid_characters: "contains invalid characters"
-  is_invalid: "is invalid; try to be a little more descriptive"
-  next_page: "next page →"
-  prev_page: "← previous page"
-  page_num: "Page %{num}"
-  by: "By"
-  topics_in_category: "Topics in the '%{category}' category"
-  rss_posts_in_topic: "RSS feed of '%{topic}'"
-  rss_topics_in_category: "RSS feed of topics in the '%{category}' category"
-  author_wrote: "%{author} wrote:"
-  num_posts: "Posts:"
-  num_participants: "Participants:"
-  read_full_topic: "Read full topic"
-  private_message_abbrev: "PM"
+  just_posted_that: "דומה מידי למה שפורסם לאחרונה"
+  has_already_been_used: "כבר בשימוש"
+  invalid_characters: "מכיל תווים לא חוקיים"
+  is_invalid: "אינו תקין: נסה יותר פירוט"
+  next_page: "עמוד הבא ←"
+  prev_page: "→ עמוד קודם"
+  page_num: "עמוד %{num}"
+  by: "מאת"
+  topics_in_category: "נושאים בקטגוריה '%{category}'"
+  rss_posts_in_topic: "תזרים RSS '%{topic}'"
+  rss_topics_in_category: "תזרים RSS של נושאים בקטגוריה '%{category}'"
+  author_wrote: "%{author} כתב:"
+  num_posts: "הודעות:"
+  num_participants: "משתתפים:"
+  read_full_topic: "קרא נושא מלא"
+  private_message_abbrev: 'ה"פ'
   rss_description:
-    latest: "Latest topics"
-    hot: "Hot topics"
-  too_late_to_edit: "That post was created too long ago. It can no longer be edited or deleted."
+    latest: "נושאים מדוברים"
+    hot: "נושאים חמים"
+  too_late_to_edit: "ההודעה הזו נוצרה לפני זמן רב מידי. לא ניתן יותר לערוך או למחוק אותה."
 
   groups:
     errors:
-      can_not_modify_automatic: "You can not modify an automatic group"
+      can_not_modify_automatic: "אתה לא יכול לשנות קבוצה אוטומטית"
     default_names:
-      admins: "admins"
-      moderators: "moderators"
-      staff: "staff"
+      admins: "מנהלים ראשיים"
+      moderators: "מנהלים"
+      staff: "צוות"
       trust_level_1: "trust_level_1"
       trust_level_2: "trust_level_2"
       trust_level_3: "trust_level_3"
@@ -117,390 +117,390 @@ he:
 
   education:
     until_posts:
-      one: "1 post"
-      other: "%{count} posts"
+      one: "הודעה אחת"
+      other: "%{count} הודעות"
 
     'new-topic': |
-      Welcome to %{site_name} &mdash; **thanks for starting a new conversation!**
+      ברוכים הבאים ל%{site_name} &mdash; **תודה על פתיחת נושא חדש!**
 
-      - Does the title accurately describe your topic? Does it sound interesting?
+      - האם הכותרת מתארת נכונה את הנושא שלך? האם היא נשמעת מעניינת?
 
-      - What is this about? Who would be interested in it? Why does it matter? What kind of responses are you hoping for from the community?
+      - על מה זה? מי יהיה מעוניין בזה? מדוע זה משנה? איזה סוג של תגובה מקווה לקבל מהקהילה?
 
-      - Include good search words in your topic so others can *find* it. To group your topic with related topics, select a category.
+      - כלול מילות חיפוש טובות בנושא שלך כדי שאחרים יוכלו *למצוא* אותו. קבץ את הנושא שלך עם נושאים דומים - בחר קטגוריה.
 
-      For more guidance, [see our FAQ](/faq). This panel will only appear for your first %{education_posts_text}.
+      לעזרה נוספת, [ראה את השאלות הנפוצות אלינו](/faq). הפאנל הזה יופיע רק עבור %{education_posts_text} הראשונים שלך.
 
     'new-reply': |
-      Welcome to %{site_name} &mdash; **thanks for contributing!**
+      ברוכים הבאים ל%{site_name} &mdash; **תודה על תרומתך!**
 
-      - Does your reply improve the conversation in some way?
+      - האם התגובה שלך משפרת את השיחה בדרך כלשהי?
 
-      - Be kind to your fellow community members.
+      - הייה אדיב לחברי הקהילה שלך.
 
-      - Constructive criticism is welcome, but criticize *ideas*, not people.
+      - ביקורת בונה היא מוזמנת, אבל בקרו *רעיונות*, לא אנשים.
 
-      For more guidance, [see our FAQ](/faq). This panel will only appear for your first %{education_posts_text}.
+      לעזרה נוספת, [ראה את השאלות הנפוצות אלינו](/faq). הפאנל הזה יופיע רק עבור %{education_posts_text} הראשונים שלך.
 
     avatar: |
-      ### How about a new picture for your account?
+      ### מה לגבי תמונה חדשה לחשבון שלך?
 
-      You've posted a few topics and replies, but your avatar isn't as unique as you are -- it's the same default avatar all new users have.
+      פרסמת מגוון של נושאים ותגובות, אבל האוואטר שלך אינו ייחודי כמו -- הוא זהה לאוואטר ברירת המחדל שיש לכל המשתמשים.
+      
+      האם שקלת **[לבקר בעמוד הפרופיל שלך](%{profile_path})** ולהעלות תמונה אישית שמייצגת אותך?
 
-      Have you considered **[visiting your user profile](%{profile_path})** and uploading a custom image that represents you?
-
-      It's easier to follow community discussions and find interesting people in conversations when everyone has a unique avatar!
+      יותר קל לעקוב אחרי דיוני הקהילה ולמצוא אנשים מעניינים בשיחות כשלכולם יש אוואטר ייחודי!
 
     sequential_replies: |
-      ### Consider replying to several posts at once
+      ### שקול להגיב למספר הודעות בבת אחת
 
-      Rather than many sequential replies to a topic, please consider a single reply that includes quotes or @name references to previous posts.
+      במקום להגיב סדרתית להרבה תגובות של נושא מסויים, שקלו להגיב פעם אחת תוך שימוש בציטוטים ואזכורי @שם לתגובות קודמות.
 
-      You can edit your previous reply to add a quote by highlighting text and selecting the <b>quote reply</b> button that appears.
+      ניתן לערוך תגובה קודמת להוספת ציטוט על ידי סימון טקסט ולחיצה על  <b>תגובת ציטוט</b>.
 
-      It's easier for everyone to read topics that have fewer in-depth replies versus lots of small, individual replies.
+      קל יותר לכולם לקרוא נושאים שיש בהם מעט תגובות מקיפות אל מול המון תגובות בודדות קצרות.
 
     dominating_topic: |
-      ### Let others join the conversation
+      ### אפשר לאחרים להצטרף לשיחה
 
-      This topic is clearly important to you &ndash; you've posted more than %{percent}% of the replies here.
+      הנושא הזה בבירור חשוב לך &ndash; פרסמת יותר מ-%{percent}% מהתגובות כאן.
 
-      Are you sure you're providing adequate time for other people to share their points of view, too?
+      בטוח שאתה נותן מספיק זמן לאחרים כדי לחלוק את נקודת מבטם?
 
     too_many_replies: |
-      ### You have reached the reply limit for this topic
+      ### הגעת למגבלת התגובות של הנושא הזה
 
-      We're sorry, but new users are temporarily limited to %{newuser_max_replies_per_topic} replies in the same topic.
+      אנחנו מצטערים, אבל משתמשים חדשים מודבלים זמנית לפרסום %{newuser_max_replies_per_topic} תגובות באותו הנושא.
 
-      Instead of adding another reply, please consider editing your previous replies, or visiting other topics.
+      במקום להוסיף תגובה נוספת, ניתן לערוך תגובה קודמת, או לבקר בנושאים אחרים.
 
     reviving_old_topic: |
-      ### Revive this topic?
+      ### להחיות נושא זה?
 
-      The last reply to this topic is now over %{days} days old. Your reply will bump the topic to the top of its list and notify anyone previously involved in the conversation.
+      התגובה האחרונה לנושא הזה היא כבר בת יותר מ-%{days} ימים. התגובה שלך תקפיץ את הנושא הזה לראש הרשימה שלו ותודיע לכל מי שהיה מעורב בשיחה בו.
 
-      Are you sure you want to continue this old conversation?
+      אתה בטוח שברצונך להמשיך את הדיון הישן הזה?
 
   activerecord:
     attributes:
       category:
-        name: "Category Name"
+        name: "שם קטגוריה"
       post:
-        raw: "Body"
+        raw: "גוף"
       user:
         ip_address: ""
     errors:
       messages:
-        is_invalid: "is invalid; try to be a little more descriptive"
-        has_already_been_used: "has already been used"
+        is_invalid: "אינו קביל; נסה להיות מעט יותר מפורט"
+        has_already_been_used: "כבר בשימוש"
       models:
         topic:
           attributes:
             archetype:
-              cant_send_pm: "Sorry, you cannot send a private message to that user."
+              cant_send_pm: "סליחה, אינך יכול לשלוח הודעה פרטית למשתמש הזה."
         user:
           attributes:
             password:
-              common: "is one of the 5000 most common passwords. Please use a more secure password."
+              common: "אחד מ-5000 הסיסמאות הנפוצות ביותר. בבקשה בחרו סיסמה אחרת."
             ip_address:
-              signup_not_allowed: "Signup is not allowed from this account."
+              signup_not_allowed: " הרשמה אינו מורשית מהחשבון הזה."
 
   user_profile:
-    no_info_me: "<div class='missing-profile'>the About Me field of your profile is currently blank, <a href='/users/%{username_lower}/preferences/about-me'>would you like to fill it out?</a></div>"
-    no_info_other: "<div class='missing-profile'>%{name} hasn't entered anything in the About Me field of their profile yet</div>"
+    no_info_me: "<div class='missing-profile'>שדה האודות של הפרופיל שלך ריק כרגע, <a href='/users/%{username_lower}/preferences/about-me'>תרצה למלא אותו?</a></div>"
+    no_info_other: "<div class='missing-profile'>%{name} עדיין לא הזין דבר בשדה אודות של הפרופיל שלהם</div>"
 
-  vip_category_name: "Lounge"
-  vip_category_description: "A category exclusive to members with trust level 3 and higher."
+  vip_category_name: "טרקלין"
+  vip_category_description: "קטגוריה אקסקלוסיבית למשתמשים עם רמת אמון 3 או יותר."
 
-  meta_category_name: "Meta"
-  meta_category_description: "Discussion about this forum, its organization, how it works, and how we can improve it."
+  meta_category_name: "מטה"
+  meta_category_description: "דיון על הפורום הזה, הארגון שלו, איך שהוא פועל ואיך שניתן לשפר אותו."
 
-  staff_category_name: "Staff"
-  staff_category_description: "Private category for staff discussions. Topics are only visible to admins and moderators."
+  staff_category_name: "צוות"
+  staff_category_description: "קטגוריה פרטית לדיוני הצוות. נושאים נראים רק למנהלים ומנהלים ראשיים."
 
-  assets_topic_body: "This is a topic to store forum assets used in the forum design. Don't delete it!"
+  assets_topic_body: "זה נושא לאכסון כל מרכיבי הפורום שבשימוש בעיצובו. אל תמחקו את זה!"
 
   category:
-    topic_prefix: "About the %{category} category"
-    replace_paragraph: "[Replace this first paragraph with a short description of your new category. This guidance will appear in the category selection area, so try to keep it below 200 characters. Until you edit this text or create topics, this category won't appear on the categories page.]"
-    post_template: "%{replace_paragraph}\n\nUse the following paragraphs for a longer description, as well as to establish any category guidelines or rules.\n\nSome things to consider in any discussion replies below:\n\n- What is this category for? Why should people select this category for their topic?\n\n- How is this different than the other categories we already have?\n\n- Do we need this category?\n\n- Should we merge this with another category, or split it into more categories?\n"
+    topic_prefix: "אודות הקטגוריה %{category}"
+    replace_paragraph: "[החלף את הפסקה הראשונה הזו עם תיאור קצר של הקטגוריה החדש שלך. התיאור הזה יופיע באיזור בחירת הקטגוריה, כך שיש לנסות לשמור עליו באורך פחות מ-200 תויים. עד שתעריך את המלל הזה או תיצור נושאים, הקטגוריה הזו לא תופיע בעמוד הקטגוריות.]"
+    post_template: "%{replace_paragraph}\n\nהשתמש בפסקאות הבאו עבור תיאור אורך יותר, כמו גם כדי להחיל כללים או חוקים על הקטגוריה.\n\nחלק מהנושאים שיש לשקול בכל דיון:\n\n- בשביל מה הקטגוריה הזו? למה שאנשים יבחרו בה בשביל הנושא שלהם?\n\n- איך היא שונה מקטגוריות אחרות שכבר יש לנו?\n\n- אנחנו צריכים את הקטגוריה הזו?\n\n- אולי כדאי לאחד אותה עם קטגוריה אחרת, או לפצל אותה לכמה קטגוריות?\n"
     errors:
-      self_parent: "A subcategory's parent cannot be itself."
-      depth: "You can't nest a subcategory under another."
+      self_parent: "תת קטגוריה לא יכולה להיות ההורה של עצמה."
+      depth: "לא ניתן לשים תת קטגוריה תחת תת קטגוריה אחרת."
   trust_levels:
     newuser:
-      title: "new user"
+      title: "משתמש חדש"
     basic:
-      title: "basic user"
+      title: "משתמש בסיסי"
     regular:
-      title: "regular user"
+      title: "משתמש רגיל"
     leader:
-      title: "leader"
+      title: "מנהיג"
     elder:
-      title: "elder"
-    change_failed_explanation: "You attempted to demote %{user_name} to '%{new_trust_level}'. However their trust level is already '%{current_trust_level}'. %{user_name} will remain at '%{current_trust_level}'"
+      title: "זקן שבט"
+    change_failed_explanation: "ניסית להוריד את דרגת %{user_name} לדרגה '%{new_trust_level}'. אולם הדרגה שלהם היא כבר '%{current_trust_level}'. %{user_name} יישאר '%{current_trust_level}'"
 
 
   rate_limiter:
-    too_many_requests: "We have a daily limit on how many times that action can be taken. Please wait %{time_left} before trying again."
+    too_many_requests: "יש לנו מגבלה יומית על מספר הפעמים שניתן לבצע פעולה זו. אנא המתן %{time_left} לפני ניסיון חוזר."
     hours:
-      one: "1 hour"
-      other: "%{count} hours"
+      one: "שעה אחת"
+      other: "%{count} שעות"
     minutes:
-      one: "1 minute"
-      other: "%{count} minutes"
+      one: "דקה אחת"
+      other: "%{count} דקות"
     seconds:
-      one: "1 second"
-      other: "%{count} seconds"
+      one: "שניה אחת"
+      other: "%{count} שניות"
 
   datetime:
     distance_in_words:
-      half_a_minute: "< 1m"
+      half_a_minute: "פחות מדקה"
       less_than_x_seconds:
-        one:   "< 1s"
-        other: "< %{count}s"
+        one:   "פחות משנייה"
+        other: "פחות מ-%{count} שניות"
       x_seconds:
-        one:   "1s"
-        other: "%{count}s"
+        one:   "שנייה"
+        other: "%{count} שניות"
       less_than_x_minutes:
-        one:   "< 1m"
-        other: "< %{count}m"
+        one:   "פחות מדקה"
+        other: "פחות מ-%{count} דקות"
       x_minutes:
-        one:   "1m"
-        other: "%{count}m"
+        one:   "דקה"
+        other: "%{count} דקות"
       about_x_hours:
-        one:   "1h"
-        other: "%{count}h"
+        one:   "שעה"
+        other: "%{count} שעות"
       x_days:
-        one:   "1d"
-        other: "%{count}d"
+        one:   "יום"
+        other: "%{count} ימים"
       about_x_months:
-        one:   "1mon"
-        other: "%{count}mon"
+        one:   "חודש"
+        other: "%{count} חודשים"
       x_months:
-        one:   "1mon"
-        other: "%{count}mon"
+        one:   "חודש"
+        other: "%{count} חודשים"
       about_x_years:
-        one:   "1y"
-        other: "%{count}y"
+        one:   "שנה"
+        other: "%{count} שנים"
       over_x_years:
-        one:   "> 1y"
-        other: "> %{count}y"
+        one:   "יותר משנה"
+        other: "יותר מ-%{count} שנים"
       almost_x_years:
-        one:   "1y"
-        other: "%{count}y"
+        one:   "שנה"
+        other: "%{count} שנים"
 
     distance_in_words_verbose:
-      half_a_minute: "just now"
+      half_a_minute: "ממש עכשיו"
       less_than_x_seconds:
-        one:   "just now"
-        other: "just now"
+        one:   "ממש עכשיו"
+        other: "ממש עכשיו"
       x_seconds:
-        one:   "1 second ago"
-        other: "%{count} seconds ago"
+        one:   "לפני שנייה"
+        other: "לפני %{count} שניות"
       less_than_x_minutes:
-        one:   "less than 1 minute ago"
-        other: "less than %{count} minutes ago"
+        one:   "לפני פחות מדקה"
+        other: "לפני פחות מ-%{count} דקות"
       x_minutes:
-        one:   "1 minute ago"
-        other: "%{count} minutes ago"
+        one:   "לפני דקה"
+        other: "לפני %{count} דקות"
       about_x_hours:
-        one:   "1 hour ago"
-        other: "%{count} hours ago"
+        one:   "לפני שעה"
+        other: "לפני %{count} שעות"
       x_days:
-        one:   "1 day ago"
-        other: "%{count} days ago"
+        one:   "אתמול"
+        other: "לפני %{count} ימים"
       about_x_months:
-        one:   "about 1 month ago"
-        other: "about %{count} months ago"
+        one:   "לפני בערך חודש"
+        other: "לפני בערך %{count} חודשים"
       x_months:
-        one:   "1 month ago"
-        other: "%{count} months ago"
+        one:   "לפני חודש"
+        other: "לפני %{count} חודשים"
       about_x_years:
-        one:   "about 1 year ago"
-        other: "about %{count} years ago"
+        one:   "לפני בערך שנה"
+        other: "לפני בערך %{count} שנים"
       over_x_years:
-        one:   "over 1 year ago"
-        other: "over %{count} years ago"
+        one:   "לפני מעבר לשנה"
+        other: "לפני מעבר %{count} שנים"
       almost_x_years:
-        one:   "almost 1 year ago"
-        other: "almost %{count} years ago"
+        one:   "לפני כמעט שנה"
+        other: "לפני כמעט %{count} שנים"
 
   password_reset:
-    no_token: "Sorry, your token has expired. Please try resetting your password again."
-    choose_new: "Please choose a new password"
-    choose: "Please choose a password"
-    update: 'Update Password'
-    save: 'Set Password'
-    title: 'Reset Password'
-    success: "You successfully changed your password and are now logged in."
-    success_unapproved: "You successfully changed your password."
-    continue: "Continue to %{site_name}"
+    no_token: "סליחה, פג תוקף אסימון איפוס הסיסמה. אנא נסה לאפס אותה שנית."
+    choose_new: "אנא בחר סיסמה חדשה"
+    choose: "אנא בחר סיסמה"
+    update: 'עדכן סיסמה'
+    save: 'שמור סיסה'
+    title: 'אפס סיסמה'
+    success: "שינית את סיסמתך בהצלחה ואתה עכשיו מחובר."
+    success_unapproved: "שינית את הסיסמה שלך אוטומטית."
+    continue: "המשך ל-%{site_name}"
 
   change_email:
-    confirmed: "Your email has been updated."
-    please_continue: "Please continue to %{link}"
-    error: "There was an error changing your email address. Perhaps the address is already in use?"
+    confirmed: "כתובת הדואר האלקטרוני שלך עודכנה"
+    please_continue: "אנא המשך ל-%{link}"
+    error: "הייתה שגאיה בעדכון כתובת הדואר האלקטרוני. אולי היא כבר בשימוש?"
 
   activation:
-    already_done: "Sorry, this account confirmation link is no longer valid. Perhaps your account is already active?"
-    please_continue: "Your new account is confirmed, and you are now logged in. Continue to %{link}"
-    welcome_to: "Welcome to %{site_name}!"
-    approval_required: "A moderator must manually approve your new account before you can access this forum. You'll get an email when your account is approved!"
+    already_done: "סליחה, כתובת אישור החשבון הזו אינה זמינה יותר. אולי החשבון שלך כבר פעיל?"
+    please_continue: "החשבון שלך מאומת ואתה מחובר. המשך ל-%{link}"
+    welcome_to: "ברוכים הבאים ל-%{site_name}!"
+    approval_required: "מנהל צריך לאשר את החשבון שלך ידנית לפני שתוכל להיכנס לפורום הזה. יישלח אליך דואר אלקטרוני כשהחשבון שלך יאושר!"
 
   post_action_types:
     off_topic:
-      title: 'Off-Topic'
-      description: 'This post is radically off-topic in the current conversation, and should probably be moved to a different topic. If this is a topic, perhaps it does not belong here.'
-      long_form: 'flagged this as off-topic'
+      title: 'אוף-טופיק'
+      description: 'ההודעה הזו היא לחלוטיןלא קשורה לשיחה הנוכחית, וכנראה שיש להעבירה לנושא אחר. אם זה נושא, אולי הוא לא שייך לכאן.'
+      long_form: 'דוגלל כאוף-טופיק'
     spam:
-      title: 'Spam'
-      description: 'This post is an advertisement. It is not useful or relevant to the current conversation, but promotional in nature.'
-      long_form: 'flagged this as spam'
+      title: 'ספאם'
+      description: 'ההודעה הזו היא פרסמות. היא לא מועילה או רלוונטית לשיחה הנוכחית, אבל קידומית באופייה.'
+      long_form: 'דוגלל כספאם
     inappropriate:
-      title: 'Inappropriate'
-      description: 'This post contains content that a reasonable person would consider offensive, abusive, or a violation of <a href="/faq">our community guidelines</a>.'
-      long_form: 'flagged this as inappropriate'
+      title: 'לא ראוי'
+      description: 'ההודעה הזו מכילה תוכלה שאדם סביר יראה כפוגעני, מנצל או מפר את <a href="/faq">כללי הקהילה שלנו</a>.'
+      long_form: 'דוגלל כלא ראוי'
     notify_user:
-      title: 'Notify {{username}}'
-      description: 'This post contains something I want to talk to this person directly and privately about.'
-      long_form: 'notified user'
-      email_title: 'Regarding your post in "%{title}"'
+      title: 'התרע ל-{{username}}'
+      description: 'ההודעה הזו כוללת משהו עליו אני רוצה לדבר עם האדם ישירות ובפרטיות.'
+      long_form: 'המשתמש הותרע'
+      email_title: 'בנוגע להודעתך ב-"%{title}"'
       email_body: "%{link}\n\n%{message}"
     notify_moderators:
-      title: 'Notify moderators'
-      description: 'This post requires general moderator attention based on the <a href="/faq">FAQ</a>, <a href="%{tos_url}">TOS</a>, or for another reason not listed above.'
-      long_form: 'notified moderators'
-      email_title: 'A post in "%{title}" requires moderator attention'
+      title: 'התרע למנהלים'
+      description: 'ההודעה הזו דורשת תשומת לב של מנהל בהתבסס על <a href="/faq">השאלות הנפוצות</a>, <a href="%{tos_url}">תנאי השימוש</a>, או בשל סיבה אחרת שלא רשומה לעיל.'
+      long_form: 'מנהלים הותרעו
+      email_title: 'הודעה ב-"%{title}" דורשת תשומת לב של מנהל'
       email_body: "%{link}\n\n%{message}"
     bookmark:
-      title: 'Bookmark'
-      description: 'Bookmark this post'
-      long_form: 'bookmarked this post'
+      title: 'מועדפים'
+      description: 'העדפף הודעה זו
+      long_form: 'הודעה סומנה כמועדפת'
     like:
-      title: 'Like'
-      description: 'Like this post'
-      long_form: 'liked this'
+      title: 'לייק
+      description: 'תן לייק להודעה זו'
+      long_form: 'נתתי לזה לייק'
     vote:
-      title: 'Vote'
-      description: 'Vote for this post'
-      long_form: 'voted for this post'
+      title: 'הצבע'
+      description: 'הצבע להודעה זו'
+      long_form: 'הצבעת להודעה זו'
 
   topic_flag_types:
     spam:
-      title: 'Spam'
-      description: 'This topic is an advertisement. It is not useful or relevant to this site, but promotional in nature.'
-      long_form: 'flagged this as spam'
+      title: 'ספאם'
+      description: 'הנושא הזה הוא פרסמות. הוא אינו שימושי או רלוונטי לאתר הזה, אלא שיווקי באופיו.'
+      long_form: 'דגלל את זה כספאם'
     inappropriate:
-      title: 'Inappropriate'
-      description: 'This topic contains content that a reasonable person would consider offensive, abusive, or a violation of <a href="/faq">our community guidelines</a>.'
-      long_form: 'flagged this as inappropriate'
+      title: 'לא ראוי'
+      description: 'הנושא הזה מכיל תוכן שאדם סביר יראה כפועני, מנצל או כהפרה של <a href="/faq">כללי הקהילה שלנו</a>.'
+      long_form: 'דוגלל כלא ראוי'
     notify_moderators:
-      title: 'Notify moderators'
-      description: 'This topic requires general moderator attention based on the <a href="/faq">FAQ</a>, <a href="%{tos_url}">TOS</a>, or for another reason not listed above.'
-      long_form: 'notified moderators'
-      email_title: 'The topic "%{title}" requires moderator attention'
+      title: 'התרע למנהלים'
+      description: 'ההודעה הזו דורשת תשומת לב של מנהל בהתבסס על <a href="/faq">השאלות הנפוצות</a>, <a href="%{tos_url}">תנאי השימוש</a>, או בשל סיבה אחרת שלא רשומה לעיל.'
+      long_form: 'מנהלים הותרעו'
+      email_title: 'הנושא "%{title}" דורש תשומת לב של מנהל'
       email_body: "%{link}\n\n%{message}"
 
   flagging:
-    you_must_edit: '<p>Your post was flagged by the community. Please see your private messages.</p>'
-    user_must_edit: '<p>Flagged content temporarily hidden.</p>'
+    you_must_edit: '<p>הודעתך דוגללה על ידי הקהילה. אנא ראה הודעות פרטיות.</p>'
+    user_must_edit: '<p>תוכן מדוגלל נסתר זמנים.</p>'
 
   archetypes:
     regular:
-      title: "Regular Topic"
+      title: "נושא רגיל"
 
   unsubscribed:
-    title: 'Unsubscribed'
-    description: "You have been unsubscribed. We won't contact you again!"
-    oops: "In case you didn't mean to do this, click below."
-    not_found: "Error Unsubscribing"
-    not_found_description: "Sorry, we couldn't unsubscribe you. It's possible the link in your email has expired."
+    title: 'מנוי בוטל'
+    description: "המנוי שלך בוטל. לא ניצור איתך קשר יותר!"
+    oops: "במקרה שלא התכוונת לעשות את זה, לחץ מטה."
+    not_found: "שגיאה בביטול מנוי"
+    not_found_description: "סליחה, לא יכולנו לבטל את המנוי שלך. זה אפשרי שפג תוקף הקישור בהודעת הדואר שלך."
 
   resubscribe:
-    action: "Re-Subscribe"
-    title: "Re-Subscribed!"
-    description: "You have been re-subscribed."
+    action: "צור מנוי מחדש"
+    title: "מנוי נוצר!"
+    description: "נוצר לך מנוי מחדש."
 
   reports:
     visits:
-      title: "User Visits"
-      xaxis: "Day"
-      yaxis: "Number of visits"
+      title: "ביקורי משתמש"
+      xaxis: "יום"
+      yaxis: "מספר ביקורים"
     signups:
-      title: "Users"
-      xaxis: "Day"
-      yaxis: "Number of new users"
+      title: "משתמשים"
+      xaxis: "יום"
+      yaxis: "מספר משתמשים חדשים"
     topics:
-      title: "Topics"
-      xaxis: "Day"
-      yaxis: "Number of new topics"
+      title: "נושאים"
+      xaxis: "יום"
+      yaxis: "מספר נושאים חדשים"
     posts:
-      title: "Posts"
-      xaxis: "Day"
-      yaxis: "Number of new posts"
+      title: "הודעות"
+      xaxis: "יום"
+      yaxis: "מספר הודעות חדשות"
     likes:
-      title: "Likes"
-      xaxis: "Day"
-      yaxis: "Number of new likes"
+      title: "לייקים"
+      xaxis: "יום"
+      yaxis: "מספר לייקים חדשים"
     flags:
-      title: "Flags"
-      xaxis: "Day"
-      yaxis: "Number of flags"
+      title: "דגלים"
+      xaxis: "יום"
+      yaxis: "מספר דגלים חדשים"
     bookmarks:
-      title: "Bookmarks"
-      xaxis: "Day"
-      yaxis: "Number of new bookmarks"
+      title: "מועדפים"
+      xaxis: "יום"
+      yaxis: "מספר מועדפים חדשים"
     starred:
-      title: "Starred"
-      xaxis: "Day"
-      yaxis: "Number of new starred topics"
+      title: "כוכב"
+      xaxis: "יום"
+      yaxis: "מספר כוכבים חדשים"
     users_by_trust_level:
-      title: "Users per Trust Level"
-      xaxis: "Trust Level"
-      yaxis: "Number of Users"
+      title: "משתמשים בכל רמת אמון"
+      xaxis: "רמת אמון"
+      yaxis: "מספר משתמשים"
     emails:
-      title: "Emails Sent"
-      xaxis: "Day"
-      yaxis: "Number of Emails"
+      title: "הודעות דואר שנשלחו"
+      xaxis: "יום"
+      yaxis: "מספר הודעות דואר"
     user_to_user_private_messages:
-      title: "User-to-User"
-      xaxis: "Day"
-      yaxis: "Number of private messages"
+      title: "משתמש למשתמש"
+      xaxis: "יום"
+      yaxis: "מספר ההודעות הפרטיות"
     system_private_messages:
-      title: "System"
-      xaxis: "Day"
-      yaxis: "Number of private messages"
+      title: "מערכת"
+      xaxis: "יום"
+      yaxis: "מספר ההודעות הפרטיות"
     moderator_warning_private_messages:
-      title: "Moderator Warning"
-      xaxis: "Day"
-      yaxis: "Number of private messages"
+      title: "אזהרות מנהל"
+      xaxis: "יום"
+      yaxis: "מספר הודעות פרטיות"
     notify_moderators_private_messages:
-      title: "Notify Moderators"
-      xaxis: "Day"
-      yaxis: "Number of private messages"
+      title: "התרע למנהלים"
+      xaxis: "יום"
+      yaxis: "מספר הודעות פרטיות"
     notify_user_private_messages:
-      title: "Notify User"
-      xaxis: "Day"
-      yaxis: "Number of private messages"
+      title: "התרע למשתמש"
+      xaxis: "יום"
+      yaxis: "מספר הודעות פרטיות"
     top_referrers:
-      title: "Top Referrers"
-      xaxis: "User"
-      num_clicks: "Clicks"
-      num_topics: "Topics"
+      title: "מיטב המפנים"
+      xaxis: "משתמש"
+      num_clicks: "לחיצות"
+      num_topics: "נושאים"
     top_traffic_sources:
-      title: "Top Traffic Sources"
-      xaxis: "Domain"
-      num_clicks: "Clicks"
-      num_topics: "Topics"
-      num_users: "Users"
+      title: "מקורות התעבורה הטובים ביותר"
+      xaxis: "שם מתחם"
+      num_clicks: "לחיצות"
+      num_topics: "נושאים"
+      num_users: "משתמשים"
     top_referred_topics:
-      title: "Top Referred Topics"
-      xaxis: "Topic"
-      num_clicks: "Clicks"
+      title: "נושאים מיוחסים"
+      xaxis: "נושא"
+      num_clicks: "לחיצות"
 
   dashboard:
-    rails_env_warning: "Your server is running in %{env} mode."
+    rails_env_warning: "השרת שלך רץ במצב %{env}."
     ruby_version_warning: "You are running a version of Ruby 2.0.0 that is known to have problems. Upgrade to patch level 247 or later."
     host_names_warning: "Your config/database.yml file is using the default localhost hostname. Update it to use your site's hostname."
     gc_warning: 'Your server is using default ruby garbage collection parameters, which will not give you the best performance. Read this topic on performance tuning: <a href="http://meta.discourse.org/t/tuning-ruby-and-rails-for-discourse/4126" target="_blank">Tuning Ruby and Rails for Discourse</a>.'
@@ -877,123 +877,123 @@ he:
     notify_about_flags_after: "If there are flags that haven't been handled after this many hours, send an email to the contact_email. Set to 0 to disable."
 
   notification_types:
-    mentioned: "%{display_username} mentioned you in %{link}"
-    liked: "%{display_username} liked your post in %{link}"
-    replied: "%{display_username} replied to your post in %{link}"
-    quoted: "%{display_username} quoted your post in %{link}"
-    edited: "%{display_username} edited your post in %{link}"
-    posted: "%{display_username} posted in %{link}"
-    moved_post: "%{display_username} moved your post to %{link}"
-    private_message: "%{display_username} sent you a private message: %{link}"
-    invited_to_private_message: "%{display_username} invited you to a private message: %{link}"
-    invitee_accepted: "%{display_username} accepted your invitation"
-    linked: "%{display_username} linked you in %{link}"
+    mentioned: "%{display_username} אזכר אותך ב %{link}"
+    liked: "%{display_username} נתן לייק להודעה שלך ב %{link}"
+    replied: "%{display_username} הגיב להודעה שלך ב %{link}"
+    quoted: "%{display_username} ציטט הודעה שלך ב %{link}"
+    edited: "%{display_username} ערך הודעה שלך ב %{link}"
+    posted: "%{display_username} פרסם ב %{link}"
+    moved_post: "%{display_username} העביר את ההודעה שלך ל %{link}"
+    private_message: "%{display_username} שלח לך הודעה פרטית: %{link}"
+    invited_to_private_message: "%{display_username} הזמין אותך להודעה פרטית: %{link}"
+    invitee_accepted: "%{display_username} קיבל את הזמנתך"
+    linked: "%{display_username} קישר אליך ב %{link}"
 
   search:
-    within_post: "#%{post_number} by %{username}: %{excerpt}"
+    within_post: "#%{post_number} מאת %{username}: %{excerpt}"
     types:
-      category: 'Categories'
-      topic: 'Topics'
-      user: 'Users'
+      category: 'קטגוריות'
+      topic: 'נושאים'
+      user: 'משתמשים'
 
-  original_poster: "Original Poster"
-  most_posts: "Most Posts"
-  most_recent_poster: "Most Recent Poster"
-  frequent_poster: "Frequent Poster"
+  original_poster: "מפרסם מקורים"
+  most_posts: "מירב ההודעות"
+  most_recent_poster: "המפרסם האחרון"
+  frequent_poster: "מפרסם מתמיד"
 
   redirected_to_top_reasons:
-    new_user: "Welcome! As a new visitor, this will be your homepage until you've had time to look around. Here's some of the most popular topics from the past."
-    not_seen_in_a_month: "Welcome back! We haven't seen you in a while. These are the top discussion topics since you've been away."
+    new_user: "ברוכים הבאים! כמבקר חדש, זה יהיה עמוד הבית שלך עד שתספיק להסתכל מסביב. הנה חלק מהנושאים הפופולריים מהעבר:"
+    not_seen_in_a_month: "ברוכים הבאים! לא ראינו אותך מזמן. הנה הדיונים הכי מדוברים מאז שלא התחברת."
 
   move_posts:
     new_topic_moderator_post:
-      one: "I moved a post to a new topic: %{topic_link}"
-      other: "I moved %{count} posts to a new topic: %{topic_link}"
+      one: "העברתי הודעה לנושא חדש: %{topic_link}"
+      other: "העברתי %{count} הודעות לנושא חדש: %{topic_link}"
     existing_topic_moderator_post:
-      one: "I moved a post to an existing topic: %{topic_link}"
-      other: "I moved %{count} posts to an existing topic: %{topic_link}"
+      one: "העברתחי הודעה לנושא קיים: %{topic_link}"
+      other: "העברתי %{count} הודעות לנושא קיים: %{topic_link}"
 
   change_owner:
-    post_revision_text: "Ownership transferred from %{old_user} to %{new_user}"
+    post_revision_text: "בעלות הועברה מהמשתמש %{old_user} אל %{new_user}"
 
   topic_statuses:
-    archived_enabled: "This topic is now archived. It is frozen and cannot be changed in any way."
-    archived_disabled: "This topic is now unarchived. It is no longer frozen, and can be changed."
-    closed_enabled: "This topic is now closed. New replies are no longer allowed."
-    closed_disabled: "This topic is now opened. New replies are allowed."
+    archived_enabled: "הנושא הזה נכנס לארכיון. הוא קפוא ולא ניתן לשינוי בכל דרך."
+    archived_disabled: "הנושא הזה הוצא מהארכיון. הוא כבר לא קפוא, וניתן לשינוי."
+    closed_enabled: "הנושא הזה נעול. לא ניתן להגיב תגובות חדשות."
+    closed_disabled: "הנושא הזה פתוח. ניתן להגיב תגובות חדשות."
     autoclosed_enabled_days:
-      zero: "This topic was automatically closed after 1 day. New replies are no longer allowed."
-      one: "This topic was automatically closed after 1 day. New replies are no longer allowed."
-      other: "This topic was automatically closed after %{count} days. New replies are no longer allowed."
+      zero: "הנושא הזה ננעל אוטומטית לאחר יום אחד. תגובות חדשות לא מתקבלות."
+      one: "הנושא הזה ננעל אוטומטית לאחר יום אחד. תגובות חדשות לא מתקבלות."
+      other: "הנושא הזה ננעל אוטומטית לאחר %{count} ימים. תגובות חדשות לא מתקבלות."
     autoclosed_enabled_hours:
-      zero: "This topic was automatically closed after 1 hour. New replies are no longer allowed."
-      one: "This topic was automatically closed after 1 hour. New replies are no longer allowed."
-      other: "This topic was automatically closed after %{count} hours. New replies are no longer allowed."
+      zero: "הנושא הזה ננעל אוטומטית לאחר שעה אחת. תגובות חדשות לא מתקבלות."
+      one: "הנושא הזה ננעל אוטומטית לאחר שעה אחת. תגובות חדשות לא מתקבלות."
+      other: "הנושא הזה ננעל אוטומטית לאחר %{count} שעות. תגובות חדשות לא מתקבלות."
     autoclosed_enabled_minutes:
-      zero: "This topic was automatically closed after 1 minute. New replies are no longer allowed."
-      one: "This topic was automatically closed after 1 minute. New replies are no longer allowed."
-      other: "This topic was automatically closed after %{count} minutes. New replies are no longer allowed."
-    autoclosed_disabled: "This topic is now opened. New replies are allowed."
-    pinned_enabled: "This topic is now pinned. It will appear at the top of its category until it is either unpinned by a moderator, or the Clear Pin button is pressed."
-    pinned_disabled: "This topic is now unpinned. It will no longer appear at the top of its category."
+      zero: "הנושא הזה ננעל אוטומטית לאחר דקה אחת. תגובות חדשות לא מתקבלות."
+      one: "הנושא הזה ננעל אוטומטית לאחר דקה אחת. תגובות חדשות לא מתקבלות."
+      other: "הנושא הזה ננעל אוטומטית לאחר %{count} דקות. תגובות חדשות לא מתקבלות."
+    autoclosed_disabled: "הנושא הזה נפתח. ניתן להגיב תגובות חדשות."
+    pinned_enabled: "הנושא הזה ננעץ. הוא יופיע בראש הקטגוריה שלו עד שיוסר מנעיצה על ידי מנהל או שכפתור נקה נעיצות נלחץ."
+    pinned_disabled: "הנושא הזה הוסר מנעיצה. הוא לא יוצג יותר בראש הקטגוריה שלו."
 
-    pinned_globally_enabled: "This topic is now pinned globally. It will appear at the top of its category and all topic lists until it is either unpinned by a moderator, or the Clear Pin button is pressed."
-    pinned_globally_disabled: "This topic is now unpinned. It will no longer appear at the top of its category."
-    visible_enabled: "This topic is now visible. It will be displayed in topic lists."
-    visible_disabled: "This topic is now invisible. It will no longer be displayed in any topic lists. The only way to access this topic is via direct link."
+    pinned_globally_enabled: "הנושא הזה עכשיו נעוץ גלובאלית. הוא יופיע בראש הקטגוריה שלו ובראש כל רשימות הנושאים עד שיוסר מנעיצה על ידי מנהל או שכפתור הנקה נעיצות יילחץ."
+    pinned_globally_disabled: "הנושא הזה הוסר מנעיצה. הוא לא יא יופיע יותר בראש הקטגוריה שלו."
+    visible_enabled: "הנושא הזה נראה. הוא יוצג ברשימות נושאים."
+    visible_disabled: "הנושא הזה בלתי נראה. הוא לא יוצג יותר באף רשימת נושאים. הדרך היחידה לגשת לנושא הזה היא דרך קישור ישיר."
 
   login:
-    not_approved: "Your account hasn't been approved yet. You will be notified by email when you are ready to log in."
-    incorrect_username_email_or_password: "Incorrect username, email or password"
-    wait_approval: "Thanks for signing up. We will notify you when your account has been approved."
-    active: "Your account is activated and ready to use."
-    activate_email: "You're almost done! We sent an activation email to <b>%{email}</b>. Please follow the instructions in the email to activate your account."
-    not_activated: "You can't log in yet. We sent an activation email to you. Please follow the instructions in the email to activate your account."
-    suspended: "You can't log in until %{date}."
-    suspended_with_reason: "You can't log in until %{date}. The reason you were suspended: %{reason}"
+    not_approved: "חשבונך טרם אושר. יישלח אליך דואר אלקטרוני כשהוא יהיה מוכן להתחברות."
+    incorrect_username_email_or_password: "שם משתמש, דואר אלקטרוני או סיסמה לא נכונים"
+    wait_approval: "תודה על שנרשמת. אנחנו ניידע אותך כשהחשבון שלך יאושר."
+    active: "החשבון שלך הופעל ומוכן לשימוש."
+    activate_email: "כמעט סיימת! שלחנו הודעת דואר אלקטרוני לכתובת <b>%{email}</b> להפעלת החשבון. בבקשה עקוב אחר ההוראות בהודעה כדי להפעיל את חשבונך."
+    not_activated: "אינך יכול להתחבר עדיין. שלחנו לך הודעת דואר אלקטרוני לאישור. בבקשה עקוב אחר ההוראות בהודעה כדי להפעיל את חשבונך."
+    suspended: "אינך יכול להתחבר עד %{date}."
+    suspended_with_reason: "אינך יכול להתחבר עד %{date}. הסיבה להשעייתך: %{reason}"
     errors: "%{errors}"
-    not_available: "Not available. Try %{suggestion}?"
-    something_already_taken: "Something went wrong, perhaps the username or email is already registered. Try the forgot password link."
-    omniauth_error: "Sorry, there was an error authorizing your %{strategy} account. Perhaps you did not approve authorization?"
-    omniauth_error_unknown: "Something went wrong processing your log in, please try again."
+    not_available: "לא זמין. נסה %{suggestion}?"
+    something_already_taken: "משהו השתבש, אולי שם המשתמש או כתובת הדאור האלקטרוני כבר בשימוש. נסה את קישור שכחתי סיסמה."
+    omniauth_error: "סליחה, הייתה שגיאה באישור חשבון ה-%{strategy} שלך. אולי לא אישרת לנו לחבר אותך דרכו?"
+    omniauth_error_unknown: "משהו השתבש במהלך עיבוד ההתחברות שלך, אנא נסה שנית."
 
   user:
     username:
-      short: "must be longer than %{min} characters"
-      long: "must be shorter than %{max} characters"
-      characters: "must only include numbers, letters and underscores"
-      unique: "must be unique"
-      blank: "must be present"
-      must_begin_with_alphanumeric: "must begin with a letter or number"
+      short: "חייב להיות יותר מ-%{min} תווים"
+      long: "חייב להיות פחות מ-%{max} תווים"
+      characters: "חייב לכלול מספרים, אותיות ומקפים תחתונים בלבד."
+      unique: "חייב להיות ייחודי"
+      blank: "חייב להיות מלא"
+      must_begin_with_alphanumeric: "חייב להתחיל עם אות או מספר"
     email:
-      not_allowed: "is not allowed from that email provider. Please use another email address."
-      blocked: "is not allowed."
+      not_allowed: "לא מורשה מכתובת הדואר האלקטרוני הזו. בבקשה השתמש בכתובת אחרת."
+      blocked: "לא מורשה."
     ip_address:
-      blocked: "is blocked."
+      blocked: "חסום."
 
   invite_mailer:
-    subject_template: "[%{site_name}] %{invitee_name} invited you to join a discussion on %{site_name}"
+    subject_template: "[%{site_name}] %{invitee_name} הזמין אותך להשתתף בדיון באתר %{site_name}"
     text_body_template: |
-      %{invitee_name} invited you to the topic "%{topic_title}" at %{site_name}.
+      %{invitee_name} הזמין אותך להשתתף בדיון "%{topic_title}" באתר %{site_name}.
 
-      If you're interested, click the link below to visit the discussion:
+      אם אתה מעוניין, לחץ על הקשירו מטה כדי לבקר בדיון:
 
-      [Visit %{site_name}][1]
+      [בקר ב- %{site_name}][1]
 
-      You were invited by a trusted user, so you'll be able to post a reply immediately, without needing to log in.
+      הוזמנת על ידי משתמש אמין, כך שתוכל לפרסם תגובה מיידית, ללא צורך להתחבר.
 
       [1]: %{invite_link}
 
   invite_forum_mailer:
-    subject_template: "[%{site_name}] %{invitee_name} invited you to join %{site_name}"
+    subject_template: "[%{site_name}] %{invitee_name} הזמין אותך להצטרף %{site_name}"
     text_body_template: |
-      %{invitee_name} invited you to %{site_name}.
+      %{invitee_name} הזמין אותך ל- %{site_name}.
 
-      If you're interested, click the link below to join:
+      אם אתה מעוניין, לחץ על הקישור הבא כדי להצטרף:
 
-      [Visit %{site_name}][1]
+      [בקר ב- %{site_name}][1]
 
-      You were invited by a trusted user, so you'll be able to join immediately, without needing to log in.
+      הוזמנת על ידי משתמש אמין, כך שתוכל לפרסם תגובה מיידית, ללא צורך להתחבר.
 
       [1]: %{invite_link}
 
@@ -1083,74 +1083,74 @@ he:
 
   system_messages:
     post_hidden:
-      subject_template: "Post hidden due to community flagging"
+      subject_template: "הודעה הוסתרה בעקבות דגלול"
       text_body_template: |
-        Hello,
+        שלום,
 
-        This is an automated message from %{site_name} to inform you that your post ...
+        זו הודעה אוטומטית מהאתר %{site_name} בכדי ליידע אותך שההודעה שלך...
 
         %{base_url}%{url}
 
-        ... was hidden due to community flagging.
+        ... הוסתרה כתוצאה של דגלול של הקהילה.
 
-        Keep in mind that multiple community members flagged this post before it was hidden, so **please consider how you might revise your post to reflect their feedback.** You can edit your post after %{edit_delay} minutes, and it will be automatically unhidden. This will increase your forum trust level.
+        קח בחשבון שמספר חברי קהילה דגללו את ההודעה לפני שהיא הוסתרה, אז בבקשה **שקול איך תהיה מוכן לנסח מחדש את ההודעה כדי שתייצג את המשוב שלהם.** אתה יכול לערוך את ההודעה שלך לאחר %{edit_delay} דקות, והיא תוצג שוב אוטומטית. זה ישפר את רמת האמון שלך בפורום.
 
-        However, if the post is hidden by the community a second time, the moderators will be notified -- and there may be further action, including the possible suspension of your account.
+        לעומת זאת, אם ההודעה תוסתר פעם שנייה, המנהלים יותרעו על כך -- ועלולה להיות פעולה נוספת על כך, כולל השעייה אפשרית שלך חשבונך.
 
-        For additional guidance, please refer to our [FAQ](%{base_url}/faq).
+        למידע נוסף, אנא עיין [בשאלות הנפוצות](%{base_url}/faq).
 
     usage_tips:
       text_body_template: |
-        This private message has a few quick tips to get you started:
+        בהודעה הפרטית הזו יש מספר טיפים קצרים כדי לעזור לך להתחיל:
 
-        ### Keep scrolling
+        ### המשך לגלול
 
-        There are no next page buttons or page numbers – to read more, just keep scrolling down!
+        אין כפתורי עמוד הבא או מספרי עמוד - כדי לקרוא עוד, פשוט גלול עוד למטה!
 
-        As new replies come in, they will appear automatically at the bottom of the topic.
+        כשתגובות חדשות מתווספות, הן תופענה אוטומטית בתחתית הנושא.
 
-        ### How do I reply?
+        ### איך מגיבים?
 
-        - To reply to a specific post, use the Reply button on that post.
+        - כדי להגיב להודעה ספציפית, יש ללחוץ על כפתור התגובה של אותה הודעה
 
-        - To reply to the overall *theme* of the topic, rather than any specific person or post in the topic, use the Reply button at the very bottom of the topic.
+        - כדי להגיב *לעניין* הנושא הכללי, במקום להודעה ספציפית כלשהו בנושא, יש להשתמש בכפתור התגובה שבתחתית הנושא.
 
-        - To take the conversation in a different direction, but keep them linked together, use Reply as New Topic to the right of the post.
+        - כדי לקחת את השיחה למחוזות חדשים, אבל לשמור קשר למקור, יש להשתמש בכפתור הגב כנושא חדש.
 
-        ### Who is talking to me?
+        ### מי מדבר אליי?
 
-        When someone replies to your post, quotes you, or mentions your @username, a number ➀ will appear over a conversation button at the top of the page. Use it see who's talking to you, and where.
+        כשמישהו מגיב לתגובה שלך, מצטט אותך, או מאזכר אותך לפי @שם, מספר יופיע בראש כפתור השיחה בראש העמוד. השתמש בזה כדי לראות מי מדבר אליך, ואיפה.
 
-        - To mention someone's name, start typing `@` and an autocompleter will pop up.
+        - כדי לאזכר שם של מישהו, יש להקליד @ והשלמה אוטומטית תצוץ.
 
-        - To quote just a section of a post, select it, then use the Reply button that appears over your selection.
+        - כדי לצטט רק חלק של הודעה, בחרו בו, ואז השתמשו בכפתור התגובה שמופיע מעל הבחירה.
 
-        - To quote an entire post, use the Import Quote button on the editor toolbar.
+        - כדי לצטט הודעה שלמה, השתמשו בכפתור ייבוא התגובה בעורך.
 
-        ### Look at that post!
+        ### הבט על ההודעה!
 
-        To let someone know that you enjoyed their post, use the like ♥ button at the bottom of the post. If you see a problem with a post, don't hesitate to use the flag button and privately let our staff know about it.
+        כדי לתת למישהו לדעת שנהנת מהתגובה שלו, יש להשתמש בכפתור הלייק ♥ בתחתית ההודעה. אם ישנה בעיה עם ההודעה, אין להסס להשתמש בכפתור הדגל כדי ליידע את הצוות שלנו באופן פרטי על זה.
 
-        ### Where am I?
+        ### איפה אני?
 
-        - To get back to the home page at any time, **use the logo at the upper left** or the back ← button on your browser.
+        - כדי לחזור לעמוד הבית בכל רגע, **ניתן ללחוץ על הלוגו בפינה הימנית העליונה** או כפתור החזור ← בדפדפן שלך.
 
-        - For search, your user page, or the sitemap, use the **icon buttons at the upper right**.
+        - לחיפוש, עמוד המשתמש או מפת האתר, יש להשתמש **בכפתורים בפינה השמאלית העיונה**.
 
-        - While reading a topic, move to the top ↑ by clicking its title at the top of the page, or press the <kbd>home</kbd> key. To reach the *bottom* ↓, use the down arrow on the topic progress indicator at the bottom of the page, or press the <kbd>end</kbd> key.
+        - במהלך קריאת נושא, ניתן לעבור לראש העמוד ↑ על ידי לחיצה על כותרתו, או על ידי לחיצה על מקש <kbd>home</kbd> במקלדת. כדי להגיע *מטה* ↓ ניתן להשתמש בחץ למטה על מד ההתקדמות של הנושא, או ללחוץ על המקש<kbd>end</kbd> במקלדת.
 
-        - Use times as entry shortcuts. You can always enter at the top of a topic via the first post date, and the bottom via the last post date.
+        - היעזר בזמני ההודעות כקיצורי דרך. תמיד אפשר להגיע לראש העמוד עם תאריך ההודעה הראשונה ולתחתית העמוד עם תאריך ההודעה האחרונה.
 
     welcome_user:
-      subject_template: "Welcome to %{site_name}!"
+      subject_template: "ברוכים הבאים ל %{site_name}!"
       text_body_template: |
-        Thanks for joining %{site_name}, and welcome!
+        תודה על הצטרפותך לאתר %{site_name}, וברוכים הבאים!
 
         %{new_user_tips}
 
-        We believe in [civilized community behavior](%{base_url}/faq) at all times.
+        אנחנו מאמינים [בהתנהגות הוגנת](%{base_url}/faq) בכל רגע נתון.
 
-        Enjoy your stay!
+        תהנו מהשהייה!
 
     welcome_invite:
       subject_template: "Welcome to %{site_name}!"
