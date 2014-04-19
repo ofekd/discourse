@@ -486,7 +486,7 @@ he:
       logging_in: "מתחבר..."
       or: "או"
       authenticating: "מאשר..."
-      awaiting_confirmation: "החשבון שלך ממתין להפעלה. ניתן להשתמש בקישור "שכחתי סיסמה" כדי לשלוח דואר אלקטרוני נוסף."
+      awaiting_confirmation: 'החשבון שלך ממתין להפעלה. ניתן להשתמש בקישור "שכחתי סיסמה" כדי לשלוח דואר אלקטרוני נוסף.'
       awaiting_approval: "החשבון שלך עדיין לא אושר על ידי חבר צוות. יישלח אליך דואר אלקטרוני כשהוא יאושר."
       requires_invite: "סליחה, גישה לפורום הזה היא בהזמנה בלבד."
       not_activated: "אינך יכול להתחבר עדיין. שלחנו לך דואר אלקטרוני להפעלת החשבון לכתובת: <b>{{sentTo}}</b>. יש לעקוב אחר ההוראות בדואר כדי להפעיל את החשבון."
@@ -583,7 +583,7 @@ he:
       auto_close_error: "אנא הזן ערך חוקי."
 
     notifications:
-      title: "התראות של אזכורי @שם, תגובות להודעות ונושאים שלך, הודעות פרטיות וכיו"ב"
+      title: 'התראות של אזכורי @שם, תגובות להודעות ונושאים שלך, הודעות פרטיות וכיו"ב'
       none: "אין לך התרעות כרגע."
       more: "הצג התרעות ישנות יותר"
       mentioned: "<span title='mentioned' class='icon'>@</span> {{username}} {{link}}"
@@ -784,13 +784,13 @@ he:
           title: "מושתק"
           description: "לעולם לא תקבל התרעות על כל הקשור להודעה פרטית זו."
         muted:
-          title: "מושתק
+          title: "מושתק"
           description: "לעולם לא תקבל התרעות על הנושא הזה, והוא לא יופיע בעמוד הלא נקראו שלך."
 
       actions:
         recover: "שחזר נושא"
-        delete: "מחק נושא
-        open: "פתח נושא
+        delete: "מחק נושא"
+        open: "פתח נושא"
         close: "נעל נושא"
         auto_close: "נעילה אוטומטית"
         unpin: "בטל נעיצת נושא"
@@ -826,8 +826,8 @@ he:
       invite_private:
         title: 'הזמן להודעה פרטית'
         email_or_username: "כתובת דואר אלקטרוני או שם משתמש של המוזמן"
-        email_or_username_placeholder: "כתובת דואר אלקטרוני או שם משתמש
-        action: "הזמן
+        email_or_username_placeholder: "כתובת דואר אלקטרוני או שם משתמש"
+        action: "הזמן"
         success: "תודה! הזמנו את אותו משתמש להשתתף בהודעה פרטית זו."
         error: "סליחה, הייתה שגיאה בהזמנת משתמש זה."
 
@@ -930,7 +930,7 @@ he:
       abandon:
         confirm: "האם אתה רוצה לנטוש את ההודעה שלך?"
         no_value: "לא, שמור אותה"
-        yes_value: "כן, נטוש'
+        yes_value: "כן, נטוש"
 
       archetypes:
         save: 'שמור אפשרויות'
@@ -1264,7 +1264,7 @@ he:
         no_check_performed: "לא בוצעה בדיקה לעדכונים. וודא ש-sidekiq פועל."
         stale_data: "לא בוצעה בדיקת עדכונים לאחרונה. וודא ש-sidekiq פועל."
         version_check_pending: "נראה שעדכנת לאחרונה. פנטסטי!"
-        installed_version: "הותקן
+        installed_version: "הותקן"
         latest_version: "אחרונה"
         problems_found: "נמצאו מספר בעיות עם התקנת Discourse שלך:"
         last_checked: "נבדק לאחרונה"
@@ -1313,8 +1313,8 @@ he:
         clear_topic_flags_title: "הנושא נבדק ובעיה נפתרה. לחץ על סיום כדי להסיר את הדגלים."
 
         flagged_by: "דוגלל על ידי"
-        system: "מערכת
-        error: "משהו השתבש
+        system: "מערכת"
+        error: "משהו השתבש"
         view_message: "תגובה"
         no_results: "אין דגלים."
         topic_flagged: "<strong>הנושא</strong> הזה דוגלל."
@@ -1644,7 +1644,7 @@ he:
         send_activation_email: "שלח הודעת הפעלת חשבון"
         activation_email_sent: "נשלחה הודעת הפעלת חשבון"
         send_activation_email_failed: "הייתה בעיה בשליחת הודעת האישור. %{error}"
-        activate: "הפעלת חשבון
+        activate: "הפעלת חשבון"
         activate_failed: "הייתה בעיה בהפעלת המשתמש."
         deactivate_account: "נטרל חשבון"
         deactivate_failed: "הייתה בעיה בנטרול חשבון המשתמש."
